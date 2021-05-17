@@ -1,5 +1,13 @@
 clusters
 
+#added by Ismam
+midterm-Q3
+.ipynb_checkpoints/
+*.ipynb
+Vocareum_Data_2018/
+midterm-Q3/
+#end addition
+
 *.pyc
 *.pyo
 *.so
