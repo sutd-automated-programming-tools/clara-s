@@ -28,7 +28,12 @@ from clara.model import expr_to_dict, dict_to_expr
 from clara.parser import getlangparser
 from clara.repair import Repair
 
-VERBOSE=0
+VERBOSE = 0
+
+
+class ParseError(Exception):
+    pass
+
 
 class Clara(object):
 
@@ -74,7 +79,71 @@ Options are:
 '''
 
     def __init__(self):
-        pass
+        global VERBOSE
+        self.models = []
+        self.sources = []
+
+        self.args, self.opts = parseargs(sys.argv[1:])
+
+        self.verbose = int(self.opts.pop('verbose', 0))
+
+        # set default code language to python
+        self.lang = self.opts.pop('lang', 'py')
+        self.timeout = int(self.opts.pop('timeout', 60))
+        self.ignoreio = int(self.opts.pop('ignoreio', 0))
+        self.ignoreret = int(self.opts.pop('ignoreret', 0))
+        self.bijective = int(self.opts.pop('bijective', 1))
+        self.cleanstrings = int(self.opts.pop('cleanstrings', 0))
+        self.entryfnc = self.opts.pop('entryfnc', 'main')
+        self.suboptimal = int(self.opts.pop('suboptimal', 1))
+        self.maxfeedcost = int(self.opts.pop('maxfeedcost', 0))
+        self.clusterdir = self.opts.pop('clusterdir', 'clusters')
+
+        self.poolsize = self.opts.pop('poolsize', None)
+        if self.poolsize is not None:
+            self.poolsize = int(self.poolsize)
+
+        self.feedtype = self.opts.pop('feedtype', 'repair')
+        if self.feedtype == 'repair':
+            self.feedtype = RepairFeedback
+        elif self.feedtype == 'simple':
+            self.feedtype = SimpleFeedback
+        elif self.feedtype == 'python':
+            self.feedtype = PythonFeedback
+        else:
+            self.error("Unknown feedback type: '%s'", self.feedtype)
+
+        self.ins = self.opts.pop('ins', None)
+        self.args = self.opts.pop('args', None)
+        self.insfile = self.opts.pop('insfile', None)
+        self.argsfile = self.opts.pop('argsfile', None)
+
+        if self.ins is not None and self.insfile is not None:
+            self.error(
+                'Got both inputs and file with inputs: which to use?'
+            )
+        if self.args is not None and self.argsfile is not None:
+            self.error(
+                'Got both args and file with args: which to use?'
+            )
+
+        if self.ins is not None:
+            self.ins = literal_eval(self.ins)
+        if self.args is not None:
+            self.args = literal_eval(self.args)
+        if self.insfile is not None:
+            with open(self.insfile, 'r') as f:
+                self.ins = literal_eval(f.read())
+        if self.argsfile is not None:
+            with open(self.argsfile, 'r') as f:
+                self.args = literal_eval(f.read())
+
+        if self.lang is None:
+            self.guess_lang()
+
+        self.parser = getlangparser(self.lang)
+        self.inter = getlanginter(self.lang)
+        self.F = None
 
     def usage(self):
         '''
@@ -239,6 +308,7 @@ Options are:
         for f in glob.glob(os.path.join(self.clusterdir, "*." + self.lang)):
             model = self.process_source(f)
             existing.append(model)
+
         print("Found %d existing clusters" % (len(existing)))
                     
         new, mod = C.cluster(self.models, self.inter,
@@ -416,32 +486,59 @@ Options are:
 
             rex[loc][var].append(expr)
 
-    def process_source(self, src):
-        '''
+    def process_source(self, src, is_file=True):
+        """
         Reads and parses a single source file `src` and stets model fields.
-        '''
+        """
 
         self.debug("Reading and parsing source file '%s'", src)
-            
-        with open(src, 'r', encoding="utf-8") as f:
-            code = f.read()
-            
-        model = self.parser.parse_code(code)
+
+        if is_file:
+            with open(src, 'r', encoding="utf-8") as f:
+                code = f.read()
+        else:
+            code = src
+
+        try:
+            model = self.parser.parse_code(code)
+        except Exception as e:
+            raise ParseError(e)
+
         model.name = src
         self.extract_exprs(model)
-
         return model
-            
-    def process_sources(self):
-        '''
+
+    def process_sources(
+        self, save=True, sources=None,
+        is_file=True, strict=True
+    ):
+        """
+        assign -> set self.models to models
+        sources -> code sources to generate models from
+        is_file -> whether sources are filenames or code
+
         Reads and parses source files (sets models field).
-        '''
+        """
 
-        self.models = []
+        models = []
 
-        for src in self.sources:
-            model = self.process_source(src)
-            self.models.append(model)
+        if sources is None:
+            sources = self.sources
+
+        for src in sources:
+            try:
+                model = self.process_source(src, is_file=is_file)
+                models.append(model)
+            except ParseError as e:
+                if strict:
+                    raise e
+
+                continue
+
+        if save:
+            self.models = models
+
+        return models
                 
 
 if __name__ == '__main__':
@@ -449,6 +546,7 @@ if __name__ == '__main__':
         clara = Clara()
         clara.main()
         sys.exit(0)
+
     except Exception as err:
         print('Error occured: %s' % (err,), file=sys.stderr)
         if VERBOSE:
