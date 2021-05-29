@@ -143,7 +143,12 @@ Options are:
 
         self.parser = getlangparser(self.lang)
         self.inter = getlanginter(self.lang)
-        self.F = None
+
+        self.F = FeedGen(
+            verbose=self.verbose, timeout=self.timeout,
+            poolsize=self.poolsize, feedmod=self.feedtype,
+            allowsuboptimal=self.suboptimal
+        )
 
     def usage(self):
         '''
@@ -373,22 +378,18 @@ Options are:
             print('No repair!')
 
     def feedback(self):
-
         if len(self.models) < 2:
             self.error('Feedback requires at least two programs!')
-
-        F = FeedGen(verbose=self.verbose, timeout=self.timeout,
-                    poolsize=self.poolsize, allowsuboptimal=self.suboptimal,
-                    feedmod=self.feedtype)
 
         impl = self.models[-1]
         specs = self.models[:-1]
 
-        feed = F.generate(
+        feed = self.F.generate(
             impl, specs, self.inter, ins=self.ins, args=self.args,
             ignoreio=self.ignoreio, ignoreret=self.ignoreret,
             cleanstrings=self.cleanstrings,
-            entryfnc=self.entryfnc)
+            entryfnc=self.entryfnc
+        )
 
         if feed.status == Feedback.STATUS_REPAIRED:
             if self.maxfeedcost > 0 and feed.cost > self.maxfeedcost:
