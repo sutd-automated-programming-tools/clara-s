@@ -161,19 +161,23 @@ Options are:
         '''
         Prints debug message if verbose mode on.
         '''
-        
+
         if self.verbose:
             debug(msg, *args)
 
-    def error(self, msg, *args):
-        '''
+    @staticmethod
+    def error(msg, *args):
+        """
         Prints error message and exits
-        '''
-        
+        """
+
         if args:
             msg %= args
+
         print('Error: %s\n' % (msg,), file=sys.stderr)
-        sys.exit(1)
+        raise Exception(msg)
+        # sys.exit kills my debugger also
+        # sys.exit(1)
 
     def main(self):
 
@@ -194,7 +198,7 @@ Options are:
 
         self.verbose = int(self.opts.pop('verbose', 0))
         VERBOSE = self.verbose
-        
+
         self.lang = self.opts.pop('lang', None)
         self.timeout = int(self.opts.pop('timeout', 60))
         self.ignoreio = int(self.opts.pop('ignoreio', 0))
