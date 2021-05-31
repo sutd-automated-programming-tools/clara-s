@@ -16,6 +16,12 @@ import traceback
 from ast import literal_eval
 
 # clara imports
+# sys.path.insert(0, '..')
+
+# clara imports
+import clara
+print(f'CLARA {clara}')
+
 from clara.common import parseargs, debug
 from clara.feedback import Feedback, FeedGen
 from clara.feedback_repair import RepairFeedback
@@ -233,7 +239,7 @@ Options are:
             self.error('Got both inputs and file with inputs: which to use?')
         if self.args is not None and self.argsfile is not None:
             self.error('Got both args and file with args: which to use?')
-        
+
         if self.ins is not None:
             self.ins = literal_eval(self.ins)
         if self.args is not None:
@@ -319,13 +325,13 @@ Options are:
             existing.append(model)
 
         print("Found %d existing clusters" % (len(existing)))
-                    
+
         new, mod = C.cluster(self.models, self.inter,
                              ins=self.ins, args=self.args,
                              entryfnc=self.entryfnc, existing=existing)
 
         print("Done, %d new clusters, %d modified clusters" % (len(new), len(mod)))
-        
+
         # Add new clusters
         for f in new:
             f.new_name = os.path.join(self.clusterdir, f.new_name)
@@ -381,32 +387,64 @@ Options are:
         else:
             print('No repair!')
 
-    def feedback(self):
-        if len(self.models) < 2:
+    def feedback(
+        self, sources=None, source_is_file=True, ignoreio=None,
+        entryfnc=None, args=None, display_feedback=False,
+        interpreter=None
+    ):
+        if ignoreio is None:
+            ignoreio = self.ignoreio
+        if entryfnc is None:
+            entryfnc = self.entryfnc
+        if interpreter is None:
+            interpreter = PyInterpreter  # self.inter
+
+        if args is None:
+            args = self.args
+        elif type(args) is str:
+            args = literal_eval(args)
+        else:
+            assert type(args) == list
+
+        if sources is None:
+            models = self.models
+        else:
+            models = self.process_sources(
+                save=False, is_file=source_is_file,
+                sources=sources
+            )
+
+        if len(models) < 2:
             self.error('Feedback requires at least two programs!')
 
-        impl = self.models[-1]
-        specs = self.models[:-1]
+        impl = models[-1]
+        specs = models[:-1]
 
         feed = self.F.generate(
-            impl, specs, self.inter, ins=self.ins, args=self.args,
-            ignoreio=self.ignoreio, ignoreret=self.ignoreret,
+            impl, specs, interpreter, ins=self.ins, args=args,
+            ignoreio=ignoreio, ignoreret=self.ignoreret,
             cleanstrings=self.cleanstrings,
-            entryfnc=self.entryfnc
+            entryfnc=entryfnc
         )
 
         if feed.status == Feedback.STATUS_REPAIRED:
-            if self.maxfeedcost > 0 and feed.cost > self.maxfeedcost:
-                self.error('max cost exceeded (%d > %d)',
-                           feed.cost, self.maxfeedcost)
-            for f in feed.feedback:
-                print('*', f)
-                
+            if feed.cost > self.maxfeedcost > 0:
+                self.error(
+                    'max cost exceeded (%d > %d)',
+                    feed.cost, self.maxfeedcost
+                )
+
+            if display_feedback:
+                for f in feed.feedback:
+                    print('*', f)
+
         elif feed.status == Feedback.STATUS_ERROR:
             self.error(feed.error)
 
         else:
             self.error(feed.statusstr())
+
+        return feed
 
     def guess_lang(self):
         '''
@@ -429,7 +467,7 @@ Options are:
         '''
         Dumps additional expressions.
         '''
-        
+
         exprs = []
         for fnc in model.getfncs():
             if not hasattr(fnc, 'repair_exprs'):
@@ -453,7 +491,7 @@ Options are:
                             "expr": expr_to_dict(expr),
                             "src": expr.src,
                         })
-                        
+
         ext = '.' + self.lang
         exprs_filename = model.name.replace(ext, '-exprs.json')
         with open(exprs_filename, 'w') as f:
@@ -544,7 +582,7 @@ Options are:
             self.models = models
 
         return models
-                
+
 
 if __name__ == '__main__':
     try:
