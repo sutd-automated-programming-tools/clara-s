@@ -1,0 +1,25 @@
+# MID-TERM EXAM: QUESTION 3
+
+import math
+
+def vol_frustum(top_area, bottom_area, height):
+　　A1= area pf the upper square
+　　A2= area of the lower square
+　　H= height of the frustum
+　　Volume=(H/3)*(A1+A2+(A1+A2)**(1/2))
+　　return Volume
+    
+
+def get_volume(s1, s2, height):
+　　s1= side length of the top square
+　　s2= side length of the lower square
+　　A1= (s1)**2
+　　A2= (s2)**2
+　　return A1
+　　return A2
+　　
+　　H= height of the frustum
+　　Volume=(H/3)*(A1+A2+(A1+A2)**(1/2))
+　　return Volume
+　　
+  

@@ -1,0 +1,31 @@
+
+[Executed at: Tue Mar 13 23:53:18 PDT 2018]
+
+Correct file submitted; running sanity test...
+Test case 1: area_square
+Pass:  True
+Test case 2: area_square
+Pass:  True
+Test case 3: area_square
+Pass:  True
+Test case 4: vol_frustum
+4.666666666666667
+Pass:  True
+Test case 5: vol_frustum
+4.0
+Pass:  True
+Test case 6: vol_frustum
+38.44685967512054
+Pass:  True
+Test case 7: get_volume
+4.666666666666667
+Pass:  True
+Test case 8: get_volume
+30.150000000000002
+Pass:  True
+Test case 9: get_volume
+102.61333333333334
+Pass:  True
+Test case 10: does 'get_volume' call the other two functions?
+Pass:  True
+Score: [10/10]

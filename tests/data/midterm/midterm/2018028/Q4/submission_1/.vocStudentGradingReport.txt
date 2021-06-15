@@ -1,0 +1,49 @@
+
+[Executed at: Sun Mar 18 23:37:06 PDT 2018]
+
+Test case 1:
+[100]
+Pass:  True
+Test case 2:
+[-5, -4]
+Pass:  True
+Test case 3:
+[2, -3, 1]
+Pass:  True
+Test case 4:
+[23]
+Pass:  False
+Test case 5:
+[10]
+Pass:  True
+Test case 6:
+[5, 4]
+Pass:  True
+Test case 7:
+[-2, 3, -1]
+Pass:  True
+Test case 8:
+[-23]
+Pass:  False
+Test case 9:
+[10]
+Pass:  False
+Test case 10:
+[5, 4, 2, 2]
+Error running test case: 9
+Test case 11:
+[-2, 3, -1]
+Error running test case: 10
+Test case 12:
+[-5, -4]
+Pass:  True
+Test case 13:
+[5, 4, 2, 2]
+Error running test case: 12
+Test case 14:
+[10]
+Pass:  True
+Test case 15:
+[-2, 3, -1]
+Pass:  True
+Correct Test Cases: [9/15]

@@ -1,0 +1,6 @@
+
+[Executed at: Wed Mar 14 1:39:22 PDT 2018]
+
+Warning: The process cpu usage may have reached the allocated cpu-time threshold of 300 second(s).
+../resource/scripts/submit.sh: line 1: 19628 Killed                  python3 $ASNLIB/submission.py
+Command exited with non-zero status 137

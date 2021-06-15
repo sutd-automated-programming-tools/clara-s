@@ -1,0 +1,19 @@
+
+[Executed at: Tue Apr 10 22:12:51 PDT 2018]
+
+Traceback (most recent call last):
+  File "/home/ccc_v1_c79523__48809/asn24778_45/asn24781_3/asnlib/autograde.py", line 14, in <module>
+    score=runtest.main()
+  File "/home/ccc_v1_c79523__48809/asn24778_45/asn24781_3/asnlib/runtestcases.py", line 77, in main
+    stu_work=getattr(__import__(work_package, fromlist=fun_name), f)
+  File "./q5_work.py", line 21, in <module>
+    print(nroot(2,5,2))
+  File "./q5_work.py", line 14, in nroot
+    dx = diff(fx, x, count)
+  File "/usr/local/lib/python3.5/dist-packages/sympy/core/function.py", line 1691, in diff
+    return Derivative(f, *symbols, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/sympy/core/function.py", line 1070, in __new__
+    Can\'t calculate %s%s derivative wrt %s.''' % (count, ordinal, v)))
+ValueError: 
+Can't calculate 2nd derivative wrt 0.
+Command exited with non-zero status 1

@@ -1,0 +1,6 @@
+#A
+#def read_stations(f):
+# create an empty dictionary for output
+# read file f line by line using f.readlines()
+# separate the file into key and item
+#add the key with respect to the item in the output dictionary

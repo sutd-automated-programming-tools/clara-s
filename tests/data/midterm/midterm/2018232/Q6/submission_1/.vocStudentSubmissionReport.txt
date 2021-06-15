@@ -1,0 +1,13 @@
+
+[Executed at: Wed Mar 14 1:56:24 PDT 2018]
+
+{'Changi Airport': ['EastWestLine (CG)'], 'Yishun': ['NorthSouthLine'], 'Queenstown': ['EastWestLine (EW)'], 'Commonwealth': ['EastWestLine (EW)'], 'Expo': ['EastWestLine (CG)'], 'Eunos': ['EastWestLine (EW)'], 'Ang Mo Kio': ['NorthSouthLine'], 'Newton': ['NorthSouthLine'], 'Tampines': ['EastWestLine (EW)'], 'Admiralty': ['NorthSouthLine'], 'Tuas West Road': ['EastWestLine (EW)'], 'Gul Circle': ['EastWestLine (EW)'], 'Clementi': ['EastWestLine (EW)'], 'Redhill': ['EastWestLine (EW)'], 'Toa Payoh': ['NorthSouthLine'], 'Marsiling': ['NorthSouthLine'], 'Lakeside': ['EastWestLine (EW)'], 'Bugis': ['EastWestLine (EW)'], 'Yio Chu Kang': ['NorthSouthLine'], 'Bukit Gombak': ['NorthSouthLine'], 'Orchard': ['NorthSouthLine'], 'Sembawang': ['NorthSouthLine'], 'Marina South Pier': ['NorthSouthLine'], 'Somerset': ['NorthSouthLine'], 'Boon Lay': ['EastWestLine (EW)'], 'Paya Lebar': ['EastWestLine (EW)'], 'Joo Koon': ['EastWestLine (EW)'], 'Dover': ['EastWestLine (EW)'], 'Canberra': ['NorthSouthLine'], 'City Hall': ['NorthSouthLine', 'EastWestLine (EW)'], 'Dhoby Ghaut': ['NorthSouthLine'], 'Bukit Batok': ['NorthSouthLine'], 'Kembangan': ['EastWestLine (EW)'], 'Buona Vista': ['EastWestLine (EW)'], 'Simei': ['EastWestLine (EW)'], 'Khatib': ['NorthSouthLine'], 'Tanjong Pagar': ['EastWestLine (EW)'], 'Chinese Garden': ['EastWestLine (EW)'], 'Kranji': ['NorthSouthLine'], 'Woodlands': ['NorthSouthLine'], 'Bedok': ['EastWestLine (EW)'], 'Tanah Merah': ['EastWestLine (CG)', 'EastWestLine (EW)'], 'Tiong Bahru': ['EastWestLine (EW)'], 'Lavender': ['EastWestLine (EW)'], 'Kallang': ['EastWestLine (EW)'], 'Aljuned': ['EastWestLine (EW)'], 'Outram Park': ['EastWestLine (EW)'], 'Raffles Place': ['NorthSouthLine', 'EastWestLine (EW)'], 'Choa Chu Kang': ['NorthSouthLine'], 'Yew Tee': ['NorthSouthLine'], 'Tuas Link': ['EastWestLine (EW)'], 'Bishan': ['NorthSouthLine'], 'Novena': ['NorthSouthLine'], 'Pioneer': ['EastWestLine (EW)'], 'Braddell': ['NorthSouthLine'], 'Jurong East': ['NorthSouthLine', 'EastWestLine (EW)'], 'Marina Bay': ['NorthSouthLine'], 'Pasir Ris': ['EastWestLine (EW)'], 'Tuas Crescent': ['EastWestLine (EW)']}
+Traceback (most recent call last):
+  File "/home/ccc_v1_c79523__48809/asn24778_45/asn24782_4/asnlib/submission.py", line 8, in <module>
+    from q6_work import find_path
+  File "./q6_work.py", line 76, in <module>
+    print(get_interchange(lines))
+  File "./q6_work.py", line 61, in get_interchange
+    lines[v[n][m]].append(k[n])
+KeyError: 'EastWestLine (CG)'
+Command exited with non-zero status 1

@@ -1,0 +1,8 @@
+    =EastWestLine (EW)=
+Pasir Ris, Tampines, Simei, Tanah Merah, Bedok, Kembangan, Eunos, Paya Lebar, Aljuned, Kallang, Lavender, Bugis, City Hall, Raffles Place, Tanjong Pagar, Outram Park, Tiong Bahru, Redhill, Queenstown, Commonwealth, Buona Vista, Dover, Clementi, Jurong East, Chinese Garden, Lakeside, Boon Lay, Pioneer, Joo Koon, Gul Circle, Tuas Crescent, Tuas West Road, Tuas Link
+
+=EastWestLine (CG)=
+Tanah Merah, Expo, Changi Airport
+
+=NorthSouthLine=
+Jurong East, Bukit Batok, Bukit Gombak, Choa Chu Kang, Yew Tee, Kranji, Marsiling, Woodlands, Admiralty, Sembawang, Canberra, Yishun, Khatib, Yio Chu Kang, Ang Mo Kio, Bishan, Braddell, Toa Payoh, Novena, Newton, Orchard, Somerset, Dhoby Ghaut, City Hall, Raffles Place, Marina Bay, Marina South Pier

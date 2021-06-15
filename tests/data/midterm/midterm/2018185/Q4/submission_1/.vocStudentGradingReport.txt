@@ -1,0 +1,13 @@
+
+[Executed at: Sun Mar 18 23:56:33 PDT 2018]
+
+Traceback (most recent call last):
+  File "/home/ccc_v1_c79523__48809/asn24778_45/asn24780_2/asnlib/autograde.py", line 14, in <module>
+    score=runtest.main()
+  File "/home/ccc_v1_c79523__48809/asn24778_45/asn24780_2/asnlib/runtestcases.py", line 66, in main
+    stu_work=getattr(__import__(work_package, fromlist=[fun_name]), fun_name)
+  File "./q4_work.py", line 6
+    else:
+        ^
+SyntaxError: unexpected EOF while parsing
+Command exited with non-zero status 1

@@ -1,0 +1,13 @@
+
+[Executed at: Sun Mar 18 23:33:05 PDT 2018]
+
+Traceback (most recent call last):
+  File "/home/ccc_v1_c79523__48809/asn24778_45/asn24783_5/asnlib/autograde.py", line 14, in <module>
+    score=runtest.main()
+  File "/home/ccc_v1_c79523__48809/asn24778_45/asn24783_5/asnlib/runtestcases.py", line 65, in main
+    stu_work=getattr(__import__(work_package, fromlist=[fun_name]), fun_name)
+  File "./q7_work.py", line 7
+    input1 = int(pence)
+         ^
+IndentationError: expected an indented block
+Command exited with non-zero status 1

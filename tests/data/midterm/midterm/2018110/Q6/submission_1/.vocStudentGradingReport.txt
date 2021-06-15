@@ -1,0 +1,76 @@
+
+[Executed at: Sun Mar 18 23:50:05 PDT 2018]
+
+{'Outram Park': 'EastWestLine (EW)', 'Bedok': 'EastWestLine (EW)', 'Bukit Batok': 'NorthSouthLine', 'Gul Circle': 'EastWestLine (EW)', 'Expo': 'EastWestLine (CG)', 'Tampines': 'EastWestLine (EW)', 'Braddell': 'NorthSouthLine', 'Tanjong Pagar': 'EastWestLine (EW)', 'Dover': 'EastWestLine (EW)', 'Marina Bay': 'NorthSouthLine', 'Lavender': 'EastWestLine (EW)', 'Yio Chu Kang': 'NorthSouthLine', 'Bugis': 'EastWestLine (EW)', 'Somerset': 'NorthSouthLine', 'Pioneer': 'EastWestLine (EW)', 'Newton': 'NorthSouthLine', 'Kranji': 'NorthSouthLine', 'Yishun': 'NorthSouthLine', 'Lakeside': 'EastWestLine (EW)', 'Changi Airport': 'EastWestLine (CG)', 'Tuas West Road': 'EastWestLine (EW)', 'Canberra': 'NorthSouthLine', 'Tuas Link': 'EastWestLine (EW)', 'Marsiling': 'NorthSouthLine', 'Orchard': 'NorthSouthLine', 'Dhoby Ghaut': 'NorthSouthLine', 'Tiong Bahru': 'EastWestLine (EW)', 'Chinese Garden': 'EastWestLine (EW)', 'Kallang': 'EastWestLine (EW)', 'City Hall': 'NorthSouthLine', 'Sembawang': 'NorthSouthLine', 'Raffles Place': 'NorthSouthLine', 'Aljuned': 'EastWestLine (EW)', 'Khatib': 'NorthSouthLine', 'Kembangan': 'EastWestLine (EW)', 'Ang Mo Kio': 'NorthSouthLine', 'Commonwealth': 'EastWestLine (EW)', 'Woodlands': 'NorthSouthLine', 'Redhill': 'EastWestLine (EW)', 'Clementi': 'EastWestLine (EW)', 'Simei': 'EastWestLine (EW)', 'Marina South Pier': 'NorthSouthLine', 'Tuas Crescent': 'EastWestLine (EW)', 'Yew Tee': 'NorthSouthLine', 'Choa Chu Kang': 'NorthSouthLine', 'Eunos': 'EastWestLine (EW)', 'Admiralty': 'NorthSouthLine', 'Tanah Merah': 'EastWestLine (CG)', 'Pasir Ris': 'EastWestLine (EW)', 'Jurong East': 'NorthSouthLine', 'Boon Lay': 'EastWestLine (EW)', 'Toa Payoh': 'NorthSouthLine', 'Buona Vista': 'EastWestLine (EW)', 'Queenstown': 'EastWestLine (EW)', 'Novena': 'NorthSouthLine', 'Joo Koon': 'EastWestLine (EW)', 'Paya Lebar': 'EastWestLine (EW)', 'Bukit Gombak': 'NorthSouthLine', 'Bishan': 'NorthSouthLine'}
+None
+Test case 1: output type
+Pass:  False
+Test case 2: length of keys
+Error running test case: 1
+Test case 3: keys
+Error running test case: 2
+Test case 4: key - value
+Error running test case: 3
+Test case 5: length of keys
+Error running test case: 4
+Test case 6: keys
+Error running test case: 5
+Test case 7: key - value
+Error running test case: 6
+Correct Test Cases: [0/7]
+Test case 1: output type
+Pass:  True
+Test case 2: length of keys
+Pass:  True
+Test case 3: keys
+Pass:  True
+Test case 4: key - value
+Pass:  False
+Test case 5: length of keys
+Pass:  True
+Test case 6: keys
+Pass:  True
+Test case 7: key - value
+Pass:  False
+Correct Test Cases: [5/7]
+Test case 1: output type
+Pass:  False
+Test case 2: length of keys
+Error running test case: 1
+Test case 3: keys
+Error running test case: 2
+Test case 4: key - value
+Error running test case: 3
+Test case 5: length of keys
+Error running test case: 4
+Test case 6: keys
+Error running test case: 5
+Test case 7: key - value
+Error running test case: 6
+Correct Test Cases: [0/7]
+Test case 1: output type
+Pass:  False
+Test case 2: length of list
+Error running test case: 1
+Test case 3: values one interchange
+Pass:  False
+Test case 4: values no interchange
+Pass:  False
+Test case 5: values two interchanges
+Pass:  True
+Test case 6: two possible path
+Pass:  False
+Test case 7: test function call
+Pass:  False
+Test case 8: test function call
+Pass:  False
+Test case 9: test function call
+Pass:  False
+Correct Test Cases: [1/9]
+================================
+SUMMARY of CORRECT TEST CASES
+================================
+Part: A, Correct Test Cases: 0/7.
+Part: B, Correct Test Cases: 5/7.
+Part: C, Correct Test Cases: 0/7.
+Part: D, Correct Test Cases: 1/9.

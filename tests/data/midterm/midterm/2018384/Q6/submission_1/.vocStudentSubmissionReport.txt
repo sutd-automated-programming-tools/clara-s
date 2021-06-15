@@ -1,0 +1,7 @@
+
+[Executed at: Wed Mar 14 1:38:13 PDT 2018]
+
+{'G': 'EastWestLine (CG)', 'C': 'EastWestLine (CG)', 'i': 'NorthSouthLine', 'u': 'NorthSouthLine', ')': 'EastWestLine (EW)', 'N': 'NorthSouthLine', 'n': 'NorthSouthLine', 's': 'EastWestLine (EW)', ' ': 'EastWestLine (EW)', '(': 'EastWestLine (EW)', 'L': 'NorthSouthLine', 'r': 'NorthSouthLine', 'E': 'EastWestLine (EW)', 'o': 'NorthSouthLine', 'W': 'EastWestLine (EW)', 'h': 'NorthSouthLine', 'a': 'EastWestLine (EW)', 'e': 'NorthSouthLine', 't': 'NorthSouthLine', 'S': 'NorthSouthLine'}
+None
+Correct file submitted; running sanity test...
+Warning: Your find_path does not seem to call the other three functions.

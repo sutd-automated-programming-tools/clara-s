@@ -1,0 +1,12 @@
+
+[Executed at: Wed Mar 14 1:51:55 PDT 2018]
+
+Traceback (most recent call last):
+  File "/home/ccc_v1_c79523__48809/asn24778_45/asn24782_4/asnlib/submission.py", line 8, in <module>
+    from q6_work import find_path
+  File "./q6_work.py", line 54, in <module>
+    print(get_stationline(mrt_d))
+  File "./q6_work.py", line 43, in get_stationline
+    new_dict[mrt[j]] = i 
+TypeError: unhashable type: 'list'
+Command exited with non-zero status 1

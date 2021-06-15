@@ -1,0 +1,47 @@
+
+[Executed at: Wed Mar 14 0:40:47 PDT 2018]
+
+Correct file submitted; running sanity test...
+Test case 1:
+100
+Pass:  True
+Test case 2:
+7
+Pass:  True
+Test case 3:
+49
+Pass:  True
+Test case 4:
+None
+Pass:  True
+Test case 5:
+10
+Pass:  True
+Test case 6:
+7
+Pass:  True
+Test case 7:
+-49
+Pass:  True
+Test case 8:
+None
+Pass:  True
+Test case 9:
+Pass:  True
+Test case 10:
+Pass:  True
+Test case 11:
+-2
+Pass:  False
+Test case 12:
+7
+Pass:  True
+Test case 13:
+Pass:  True
+Test case 14:
+10
+Pass:  True
+Test case 15:
+-49
+Pass:  True
+Correct Test Cases: [14/15]

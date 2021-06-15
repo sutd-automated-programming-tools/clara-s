@@ -1,0 +1,76 @@
+
+[Executed at: Sun Mar 18 23:28:42 PDT 2018]
+
+{'Kembangan': ['EastWestLine (EW)'], 'Bishan': ['NorthSouthLine'], 'Tanjong Pagar': ['EastWestLine (EW)'], 'Yew Tee': ['NorthSouthLine'], 'Lavender': ['EastWestLine (EW)'], 'Expo': ['EastWestLine (CG)'], 'Bukit Batok': ['NorthSouthLine'], 'Canberra': ['NorthSouthLine'], 'Choa Chu Kang': ['NorthSouthLine'], 'Queenstown': ['EastWestLine (EW)'], 'Orchard': ['NorthSouthLine'], 'Somerset': ['NorthSouthLine'], 'Gul Circle': ['EastWestLine (EW)'], 'Commonwealth': ['EastWestLine (EW)'], 'Novena': ['NorthSouthLine'], 'Sembawang': ['NorthSouthLine'], 'Khatib': ['NorthSouthLine'], 'Buona Vista': ['EastWestLine (EW)'], 'Yio Chu Kang': ['NorthSouthLine'], 'Joo Koon': ['EastWestLine (EW)'], 'Bugis': ['EastWestLine (EW)'], 'Admiralty': ['NorthSouthLine'], 'Kranji': ['NorthSouthLine'], 'Tampines': ['EastWestLine (EW)'], 'Woodlands': ['NorthSouthLine'], 'Kallang': ['EastWestLine (EW)'], 'Tuas West Road': ['EastWestLine (EW)'], 'Tuas Link': ['EastWestLine (EW)'], 'Bedok': ['EastWestLine (EW)'], 'Lakeside': ['EastWestLine (EW)'], 'Boon Lay': ['EastWestLine (EW)'], 'Yishun': ['NorthSouthLine'], 'Jurong East': ['NorthSouthLine', 'EastWestLine (EW)'], 'Aljuned': ['EastWestLine (EW)'], 'Toa Payoh': ['NorthSouthLine'], 'Raffles Place': ['NorthSouthLine', 'EastWestLine (EW)'], 'Tiong Bahru': ['EastWestLine (EW)'], 'Paya Lebar': ['EastWestLine (EW)'], 'Dhoby Ghaut': ['NorthSouthLine'], 'Eunos': ['EastWestLine (EW)'], 'City Hall': ['NorthSouthLine', 'EastWestLine (EW)'], 'Redhill': ['EastWestLine (EW)'], 'Dover': ['EastWestLine (EW)'], 'Braddell': ['NorthSouthLine'], 'Outram Park': ['EastWestLine (EW)'], 'Simei': ['EastWestLine (EW)'], 'Newton': ['NorthSouthLine'], 'Chinese Garden': ['EastWestLine (EW)'], 'Marina South Pier': ['NorthSouthLine'], 'Pioneer': ['EastWestLine (EW)'], 'Clementi': ['EastWestLine (EW)'], 'Marina Bay': ['NorthSouthLine'], 'Bukit Gombak': ['NorthSouthLine'], 'Ang Mo Kio': ['NorthSouthLine'], 'Marsiling': ['NorthSouthLine'], 'Changi Airport': ['EastWestLine (CG)'], 'Tanah Merah': ['EastWestLine (EW)', 'EastWestLine (CG)'], 'Pasir Ris': ['EastWestLine (EW)'], 'Tuas Crescent': ['EastWestLine (EW)']}
+{'Tanah Merah': ['EastWestLine (EW)', 'EastWestLine (CG)'], 'Jurong East': ['EastWestLine (EW)', 'NorthSouthLine'], 'City Hall': ['EastWestLine (EW)', 'NorthSouthLine'], 'Raffles Place': ['EastWestLine (EW)', 'NorthSouthLine']}
+Test case 1: output type
+Error running test case: 0
+Test case 2: length of keys
+Error running test case: 1
+Test case 3: keys
+Error running test case: 2
+Test case 4: key - value
+Error running test case: 3
+Test case 5: length of keys
+Error running test case: 4
+Test case 6: keys
+Error running test case: 5
+Test case 7: key - value
+Error running test case: 6
+Correct Test Cases: [0/7]
+Test case 1: output type
+Pass:  True
+Test case 2: length of keys
+Pass:  True
+Test case 3: keys
+Pass:  True
+Test case 4: key - value
+Pass:  True
+Test case 5: length of keys
+Pass:  True
+Test case 6: keys
+Pass:  True
+Test case 7: key - value
+Pass:  True
+Correct Test Cases: [7/7]
+Test case 1: output type
+Pass:  True
+Test case 2: length of keys
+Pass:  True
+Test case 3: keys
+Pass:  True
+Test case 4: key - value
+Pass:  False
+Test case 5: length of keys
+Pass:  True
+Test case 6: keys
+Pass:  True
+Test case 7: key - value
+Pass:  False
+Correct Test Cases: [5/7]
+Test case 1: output type
+Pass:  False
+Test case 2: length of list
+Error running test case: 1
+Test case 3: values one interchange
+Pass:  False
+Test case 4: values no interchange
+Pass:  False
+Test case 5: values two interchanges
+Pass:  True
+Test case 6: two possible path
+Pass:  False
+Test case 7: test function call
+Pass:  False
+Test case 8: test function call
+Pass:  False
+Test case 9: test function call
+Pass:  False
+Correct Test Cases: [1/9]
+================================
+SUMMARY of CORRECT TEST CASES
+================================
+Part: A, Correct Test Cases: 0/7.
+Part: B, Correct Test Cases: 7/7.
+Part: C, Correct Test Cases: 5/7.
+Part: D, Correct Test Cases: 1/9.

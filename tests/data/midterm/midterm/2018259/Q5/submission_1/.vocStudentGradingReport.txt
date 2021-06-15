@@ -1,0 +1,24 @@
+
+[Executed at: Sun Mar 18 23:51:52 PDT 2018]
+
+Test case 1: nroot
+Pass:  False
+Test case 2: nroot
+Pass:  False
+Test case 3: nroot
+Pass:  False
+Test case 4: nroot
+Pass:  True
+Test case 5: nroot
+Pass:  True
+Test case 6: nroot
+Pass:  False
+Test case 7: nroot
+Pass:  False
+Traceback (most recent call last):
+  File "/home/ccc_v1_c79523__48809/asn24778_45/asn24781_3/asnlib/autograde.py", line 14, in <module>
+    score=runtest.main()
+  File "/home/ccc_v1_c79523__48809/asn24778_45/asn24781_3/asnlib/runtestcases.py", line 77, in main
+    stu_work=getattr(__import__(work_package, fromlist=fun_name), f)
+AttributeError: module 'q5_work' has no attribute 'nroot_complex'
+Command exited with non-zero status 1

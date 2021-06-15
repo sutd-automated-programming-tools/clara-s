@@ -1,0 +1,9 @@
+def read_stations(f):
+    trainlines=f.split("\n")
+    EWstations=[(trainlines[1].split("\t")).strip()]
+    CGstations=[(trainlines[1].split("\t")).strip()]
+    NSstations=[(trainlines[1].split("\t")).strip()]
+    D[trainlines[0]]=EWstations
+    D[trainlines[2]]=CGstations
+    D[trainlines[3]]=NSstations
+    return D

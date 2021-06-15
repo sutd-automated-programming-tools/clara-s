@@ -1,0 +1,50 @@
+
+[Executed at: Wed Mar 14 1:56:50 PDT 2018]
+
+Correct file submitted; running sanity test...
+Test case 1:
+Pass:  False
+Test case 2:
+2 x 2 matrix
+Pass:  True
+Test case 3:
+three by three!
+Pass:  True
+Test case 4:
+Not square!
+Pass:  True
+Test case 5:
+Pass:  False
+Test case 6:
+2 x 2 matrix
+Pass:  True
+Test case 7:
+three by three!
+Pass:  True
+Test case 8:
+Not square!
+Pass:  True
+Test case 9:
+Not square!
+Pass:  True
+Test case 10:
+out of 1 to 3 range!
+out of 1 to 3 range!
+out of 1 to 3 range!
+Pass:  True
+Test case 11:
+Pass:  True
+Test case 12:
+2 x 2 matrix
+Pass:  True
+Test case 13:
+out of 1 to 3 range!
+out of 1 to 3 range!
+out of 1 to 3 range!
+Pass:  True
+Test case 14:
+Pass:  False
+Test case 15:
+three by three!
+Pass:  True
+Correct Test Cases: [12/15]

@@ -1,0 +1,13 @@
+
+[Executed at: Wed Mar 14 1:57:24 PDT 2018]
+
+{'Novena': ['NorthSouthLine'], 'Yew Tee': ['NorthSouthLine'], 'Raffles Place': ['NorthSouthLine', 'EastWestLine (EW)'], 'Choa Chu Kang': ['NorthSouthLine'], 'Gul Circle': ['EastWestLine (EW)'], 'Outram Park': ['EastWestLine (EW)'], 'Joo Koon': ['EastWestLine (EW)'], 'Marina Bay': ['NorthSouthLine'], 'Boon Lay': ['EastWestLine (EW)'], 'Kembangan': ['EastWestLine (EW)'], 'Tanjong Pagar': ['EastWestLine (EW)'], 'Redhill': ['EastWestLine (EW)'], 'Simei': ['EastWestLine (EW)'], 'City Hall': ['NorthSouthLine', 'EastWestLine (EW)'], 'Chinese Garden': ['EastWestLine (EW)'], 'Pasir Ris': ['EastWestLine (EW)'], 'Eunos': ['EastWestLine (EW)'], 'Jurong East': ['NorthSouthLine', 'EastWestLine (EW)'], 'Paya Lebar': ['EastWestLine (EW)'], 'Tuas Link': ['EastWestLine (EW)'], 'Queenstown': ['EastWestLine (EW)'], 'Aljuned': ['EastWestLine (EW)'], 'Lavender': ['EastWestLine (EW)'], 'Bukit Gombak': ['NorthSouthLine'], 'Commonwealth': ['EastWestLine (EW)'], 'Orchard': ['NorthSouthLine'], 'Tampines': ['EastWestLine (EW)'], 'Kranji': ['NorthSouthLine'], 'Buona Vista': ['EastWestLine (EW)'], 'Tuas West Road': ['EastWestLine (EW)'], 'Yio Chu Kang': ['NorthSouthLine'], 'Tuas Crescent': ['EastWestLine (EW)'], 'Admiralty': ['NorthSouthLine'], 'Toa Payoh': ['NorthSouthLine'], 'Dover': ['EastWestLine (EW)'], 'Lakeside': ['EastWestLine (EW)'], 'Marina South Pier': ['NorthSouthLine'], 'Somerset': ['NorthSouthLine'], 'Tiong Bahru': ['EastWestLine (EW)'], 'Bedok': ['EastWestLine (EW)'], 'Marsiling': ['NorthSouthLine'], 'Sembawang': ['NorthSouthLine'], 'Bugis': ['EastWestLine (EW)'], 'Braddell': ['NorthSouthLine'], 'Khatib': ['NorthSouthLine'], 'Canberra': ['NorthSouthLine'], 'Changi Airport': ['EastWestLine (CG)'], 'Yishun': ['NorthSouthLine'], 'Bishan': ['NorthSouthLine'], 'Bukit Batok': ['NorthSouthLine'], 'Pioneer': ['EastWestLine (EW)'], 'Kallang': ['EastWestLine (EW)'], 'Tanah Merah': ['EastWestLine (CG)', 'EastWestLine (EW)'], 'Dhoby Ghaut': ['NorthSouthLine'], 'Clementi': ['EastWestLine (EW)'], 'Newton': ['NorthSouthLine'], 'Expo': ['EastWestLine (CG)'], 'Ang Mo Kio': ['NorthSouthLine'], 'Woodlands': ['NorthSouthLine']}
+Traceback (most recent call last):
+  File "/home/ccc_v1_c79523__48809/asn24778_45/asn24782_4/asnlib/submission.py", line 8, in <module>
+    from q6_work import find_path
+  File "./q6_work.py", line 41, in <module>
+    print(get_interchange(lines))
+  File "./q6_work.py", line 24, in get_interchange
+    for key, lst in line:
+NameError: name 'line' is not defined
+Command exited with non-zero status 1

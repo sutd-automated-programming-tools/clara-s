@@ -1,0 +1,77 @@
+
+[Executed at: Sun Mar 18 23:33:41 PDT 2018]
+
+{'Yishun': ['NorthSouthLine'], 'Tampines': ['EastWestLine (EW)'], 'Bishan': ['NorthSouthLine'], 'Outram Park': ['EastWestLine (EW)'], 'Orchard': ['NorthSouthLine'], 'Canberra': ['NorthSouthLine'], 'Gul Circle': ['EastWestLine (EW)'], 'Dover': ['EastWestLine (EW)'], 'Lakeside': ['EastWestLine (EW)'], 'Boon Lay': ['EastWestLine (EW)'], 'Kranji': ['NorthSouthLine'], 'Redhill': ['EastWestLine (EW)'], 'Tiong Bahru': ['EastWestLine (EW)'], 'Lavender': ['EastWestLine (EW)'], 'Sembawang': ['NorthSouthLine'], 'Kembangan': ['EastWestLine (EW)'], 'Raffles Place': ['NorthSouthLine', 'EastWestLine (EW)'], 'Somerset': ['NorthSouthLine'], 'Tanjong Pagar': ['EastWestLine (EW)'], 'Queenstown': ['EastWestLine (EW)'], 'Kallang': ['EastWestLine (EW)'], 'Toa Payoh': ['NorthSouthLine'], 'Newton': ['NorthSouthLine'], 'Tuas West Road': ['EastWestLine (EW)'], 'Braddell': ['NorthSouthLine'], 'Ang Mo Kio': ['NorthSouthLine'], 'Marsiling': ['NorthSouthLine'], 'Aljuned': ['EastWestLine (EW)'], 'Eunos': ['EastWestLine (EW)'], 'Commonwealth': ['EastWestLine (EW)'], 'Jurong East': ['NorthSouthLine', 'EastWestLine (EW)'], 'Woodlands': ['NorthSouthLine'], 'Clementi': ['EastWestLine (EW)'], 'Bugis': ['EastWestLine (EW)'], 'Admiralty': ['NorthSouthLine'], 'Tuas Link': ['EastWestLine (EW)'], 'Yew Tee': ['NorthSouthLine'], 'Marina South Pier': ['NorthSouthLine'], 'Marina Bay': ['NorthSouthLine'], 'Khatib': ['NorthSouthLine'], 'Chinese Garden': ['EastWestLine (EW)'], 'Tanah Merah': ['EastWestLine (CG)', 'EastWestLine (EW)'], 'Yio Chu Kang': ['NorthSouthLine'], 'Pioneer': ['EastWestLine (EW)'], 'Bukit Batok': ['NorthSouthLine'], 'Joo Koon': ['EastWestLine (EW)'], 'Tuas Crescent': ['EastWestLine (EW)'], 'Choa Chu Kang': ['NorthSouthLine'], 'Buona Vista': ['EastWestLine (EW)'], 'Bukit Gombak': ['NorthSouthLine'], 'Changi Airport': ['EastWestLine (CG)'], 'Expo': ['EastWestLine (CG)'], 'Bedok': ['EastWestLine (EW)'], 'Paya Lebar': ['EastWestLine (EW)'], 'Pasir Ris': ['EastWestLine (EW)'], 'City Hall': ['NorthSouthLine', 'EastWestLine (EW)'], 'Novena': ['NorthSouthLine'], 'Dhoby Ghaut': ['NorthSouthLine'], 'Simei': ['EastWestLine (EW)']}
+{'City Hall': ['EastWestLine (EW)', 'NorthSouthLine'], 'Tanah Merah': ['EastWestLine (EW)', 'EastWestLine (CG)'], 'Jurong East': ['EastWestLine (EW)', 'NorthSouthLine'], 'Raffles Place': ['EastWestLine (EW)', 'NorthSouthLine']}
+Test case 1: output type
+Pass:  True
+Test case 2: length of keys
+Pass:  True
+Test case 3: keys
+Pass:  True
+Test case 4: key - value
+Pass:  True
+Test case 5: length of keys
+Pass:  True
+Test case 6: keys
+Pass:  True
+Test case 7: key - value
+Pass:  True
+Correct Test Cases: [7/7]
+Test case 1: output type
+Pass:  True
+Test case 2: length of keys
+Pass:  True
+Test case 3: keys
+Pass:  True
+Test case 4: key - value
+Pass:  True
+Test case 5: length of keys
+Pass:  True
+Test case 6: keys
+Pass:  True
+Test case 7: key - value
+Pass:  True
+Correct Test Cases: [7/7]
+Test case 1: output type
+Pass:  True
+Test case 2: length of keys
+Pass:  True
+Test case 3: keys
+Pass:  True
+Test case 4: key - value
+Pass:  False
+Test case 5: length of keys
+Pass:  True
+Test case 6: keys
+Pass:  True
+Test case 7: key - value
+Pass:  False
+Correct Test Cases: [5/7]
+Test case 1: output type
+Pass:  False
+Test case 2: length of list
+Error running test case: 1
+Test case 3: values one interchange
+Pass:  False
+Test case 4: values no interchange
+same line!
+Error running test case: 3
+Test case 5: values two interchanges
+Pass:  True
+Test case 6: two possible path
+Pass:  False
+Test case 7: test function call
+Pass:  True
+Test case 8: test function call
+Pass:  True
+Test case 9: test function call
+Pass:  True
+Correct Test Cases: [4/9]
+================================
+SUMMARY of CORRECT TEST CASES
+================================
+Part: A, Correct Test Cases: 7/7.
+Part: B, Correct Test Cases: 7/7.
+Part: C, Correct Test Cases: 5/7.
+Part: D, Correct Test Cases: 4/9.

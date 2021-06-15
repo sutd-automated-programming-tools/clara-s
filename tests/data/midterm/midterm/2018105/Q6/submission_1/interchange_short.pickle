@@ -1,0 +1,28 @@
+def read_stations(f):
+
+    lst = []
+    output = dict()
+    for line in (f):
+        if line == '=EastWestLine (EW)=':
+            output ['EastWestLine (EW)'] = lst
+            sublist = line.strip('\n')
+            sublist = sublist.split(' ')
+            sublist = [float(i) for i in sublist]
+            list.append(sublist)
+            return lst
+            continue
+        if line == '=EastWestLine (CG)=':
+            output ['=EastWestLine (CG)='] = lst
+            sublist = line.strip('\n')
+            sublist = sublist.split(' ')
+            sublist = [float(i) for i in sublist]
+            list.append(sublist)
+            return lst
+            continue
+        if line == '=NorthSouthLine=':
+            output ['=NorthSouthLine='] = lst
+
+            continue
+        elif line == 'END':
+            break
+            

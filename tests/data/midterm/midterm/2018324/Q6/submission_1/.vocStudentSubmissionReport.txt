@@ -1,0 +1,12 @@
+
+[Executed at: Wed Mar 14 1:23:21 PDT 2018]
+
+Traceback (most recent call last):
+  File "/home/ccc_v1_c79523__48809/asn24778_45/asn24782_4/asnlib/submission.py", line 8, in <module>
+    from q6_work import find_path
+  File "./q6_work.py", line 68, in <module>
+    print(get_stationline(mrt_d))
+  File "./q6_work.py", line 25, in get_stationline
+    for i in mrt['EastWestLine(EW)']:
+KeyError: 'EastWestLine(EW)'
+Command exited with non-zero status 1

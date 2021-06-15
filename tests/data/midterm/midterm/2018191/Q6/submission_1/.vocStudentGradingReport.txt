@@ -1,0 +1,182 @@
+
+[Executed at: Sun Mar 18 23:47:06 PDT 2018]
+
+[['Pasir Ris', 'Tampines', 'Simei', 'Tanah Merah', 'Bedok', 'Kembangan', 'Eunos', 'Paya Lebar', 'Aljuned', 'Kallang', 'Lavender', 'Bugis', 'City Hall', 'Raffles Place', 'Tanjong Pagar', 'Outram Park', 'Tiong Bahru', 'Redhill', 'Queenstown', 'Commonwealth', 'Buona Vista', 'Dover', 'Clementi', 'Jurong East', 'Chinese Garden', 'Lakeside', 'Boon Lay', 'Pioneer', 'Joo Koon', 'Gul Circle', 'Tuas Crescent', 'Tuas West Road', 'Tuas Link'], ['Jurong East', 'Bukit Batok', 'Bukit Gombak', 'Choa Chu Kang', 'Yew Tee', 'Kranji', 'Marsiling', 'Woodlands', 'Admiralty', 'Sembawang', 'Canberra', 'Yishun', 'Khatib', 'Yio Chu Kang', 'Ang Mo Kio', 'Bishan', 'Braddell', 'Toa Payoh', 'Novena', 'Newton', 'Orchard', 'Somerset', 'Dhoby Ghaut', 'City Hall', 'Raffles Place', 'Marina Bay', 'Marina South Pier'], ['Tanah Merah', 'Expo', 'Changi Airport']]
+['EastWestLine (EW)', 'NorthSouthLine', 'EastWestLine (CG)']
+{'Outram Park': ['EastWestLine (EW)'], 'Paya Lebar': ['EastWestLine (EW)'], 'Sembawang': ['NorthSouthLine'], 'Canberra': ['NorthSouthLine'], 'Choa Chu Kang': ['NorthSouthLine'], 'Newton': ['NorthSouthLine'], 'Dover': ['EastWestLine (EW)'], 'Yew Tee': ['NorthSouthLine'], 'Lakeside': ['EastWestLine (EW)'], 'Dhoby Ghaut': ['NorthSouthLine'], 'Novena': ['NorthSouthLine'], 'Marsiling': ['NorthSouthLine'], 'Bukit Gombak': ['NorthSouthLine'], 'Jurong East': ['EastWestLine (EW)', 'NorthSouthLine'], 'Tanah Merah': ['EastWestLine (EW)', 'EastWestLine (CG)'], 'Clementi': ['EastWestLine (EW)'], 'Somerset': ['NorthSouthLine'], 'Ang Mo Kio': ['NorthSouthLine'], 'Marina Bay': ['NorthSouthLine'], 'Tuas West Road': ['EastWestLine (EW)'], 'Bukit Batok': ['NorthSouthLine'], 'Buona Vista': ['EastWestLine (EW)'], 'Yishun': ['NorthSouthLine'], 'Redhill': ['EastWestLine (EW)'], 'Pioneer': ['EastWestLine (EW)'], 'Kranji': ['NorthSouthLine'], 'Changi Airport': ['EastWestLine (CG)'], 'Admiralty': ['NorthSouthLine'], 'Gul Circle': ['EastWestLine (EW)'], 'Yio Chu Kang': ['NorthSouthLine'], 'Boon Lay': ['EastWestLine (EW)'], 'Khatib': ['NorthSouthLine'], 'Raffles Place': ['EastWestLine (EW)', 'NorthSouthLine'], 'Kembangan': ['EastWestLine (EW)'], 'Toa Payoh': ['NorthSouthLine'], 'Pasir Ris': ['EastWestLine (EW)'], 'Bishan': ['NorthSouthLine'], 'Eunos': ['EastWestLine (EW)'], 'Bedok': ['EastWestLine (EW)'], 'Lavender': ['EastWestLine (EW)'], 'Tampines': ['EastWestLine (EW)'], 'Tiong Bahru': ['EastWestLine (EW)'], 'City Hall': ['EastWestLine (EW)', 'NorthSouthLine'], 'Commonwealth': ['EastWestLine (EW)'], 'Marina South Pier': ['NorthSouthLine'], 'Simei': ['EastWestLine (EW)'], 'Chinese Garden': ['EastWestLine (EW)'], 'Tuas Crescent': ['EastWestLine (EW)'], 'Tuas Link': ['EastWestLine (EW)'], 'Bugis': ['EastWestLine (EW)'], 'Kallang': ['EastWestLine (EW)'], 'Tanjong Pagar': ['EastWestLine (EW)'], 'Joo Koon': ['EastWestLine (EW)'], 'Woodlands': ['NorthSouthLine'], 'Orchard': ['NorthSouthLine'], 'Queenstown': ['EastWestLine (EW)'], 'Aljuned': ['EastWestLine (EW)'], 'Expo': ['EastWestLine (CG)'], 'Braddell': ['NorthSouthLine']}
+{'Tanah Merah': ['EastWestLine (EW)', 'EastWestLine (CG)'], 'Raffles Place': ['EastWestLine (EW)', 'NorthSouthLine'], 'Jurong East': ['EastWestLine (EW)', 'NorthSouthLine'], 'City Hall': ['EastWestLine (EW)', 'NorthSouthLine']}
+Test case 1: output type
+=EastWestLine (EW)=
+
+EastWestLine (EW)
+=EastWestLine (CG)=
+
+EastWestLine (CG)
+=NorthSouthLine=
+
+NorthSouthLine
+Pass:  True
+Test case 2: length of keys
+=EastWestLine (EW)=
+
+EastWestLine (EW)
+=EastWestLine (CG)=
+
+EastWestLine (CG)
+=NorthSouthLine=
+
+NorthSouthLine
+Pass:  True
+Test case 3: keys
+=EastWestLine (EW)=
+
+EastWestLine (EW)
+=EastWestLine (CG)=
+
+EastWestLine (CG)
+=NorthSouthLine=
+
+NorthSouthLine
+Pass:  True
+Test case 4: key - value
+=EastWestLine (EW)=
+
+EastWestLine (EW)
+=EastWestLine (CG)=
+
+EastWestLine (CG)
+=NorthSouthLine=
+
+NorthSouthLine
+Pass:  True
+Test case 5: length of keys
+=EastWestLine (EW)=
+
+EastWestLine (EW)
+=EastWestLine (CG)=
+
+EastWestLine (CG)
+=NorthSouthLine=
+
+NorthSouthLine
+=NorthEastLine=
+
+NorthEastLine
+=CircleLine=
+
+CircleLine
+=DowntownLine=
+
+DowntownLine
+Pass:  True
+Test case 6: keys
+=EastWestLine (EW)=
+
+EastWestLine (EW)
+=EastWestLine (CG)=
+
+EastWestLine (CG)
+=NorthSouthLine=
+
+NorthSouthLine
+=NorthEastLine=
+
+NorthEastLine
+=CircleLine=
+
+CircleLine
+=DowntownLine=
+
+DowntownLine
+Pass:  True
+Test case 7: key - value
+=EastWestLine (EW)=
+
+EastWestLine (EW)
+=EastWestLine (CG)=
+
+EastWestLine (CG)
+=NorthSouthLine=
+
+NorthSouthLine
+=NorthEastLine=
+
+NorthEastLine
+=CircleLine=
+
+CircleLine
+=DowntownLine=
+
+DowntownLine
+Pass:  True
+Correct Test Cases: [7/7]
+Test case 1: output type
+[['Pasir Ris', 'Tampines', 'Simei', 'Tanah Merah', 'Bedok', 'Kembangan', 'Eunos', 'Paya Lebar', 'Aljuned', 'Kallang', 'Lavender', 'Bugis', 'City Hall', 'Raffles Place', 'Tanjong Pagar', 'Outram Park', 'Tiong Bahru', 'Redhill', 'Queenstown', 'Commonwealth', 'Buona Vista', 'Dover', 'Clementi', 'Jurong East', 'Chinese Garden', 'Lakeside', 'Boon Lay', 'Pioneer', 'Joo Koon', 'Gul Circle', 'Tuas Crescent', 'Tuas West Road', 'Tuas Link'], ['Jurong East', 'Bukit Batok', 'Bukit Gombak', 'Choa Chu Kang', 'Yew Tee', 'Kranji', 'Marsiling', 'Woodlands', 'Admiralty', 'Sembawang', 'Canberra', 'Yishun', 'Khatib', 'Yio Chu Kang', 'Ang Mo Kio', 'Bishan', 'Braddell', 'Toa Payoh', 'Novena', 'Newton', 'Orchard', 'Somerset', 'Dhoby Ghaut', 'City Hall', 'Raffles Place', 'Marina Bay', 'Marina South Pier'], ['Tanah Merah', 'Expo', 'Changi Airport']]
+['EastWestLine (EW)', 'NorthSouthLine', 'EastWestLine (CG)']
+Pass:  True
+Test case 2: length of keys
+[['Pasir Ris', 'Tampines', 'Simei', 'Tanah Merah', 'Bedok', 'Kembangan', 'Eunos', 'Paya Lebar', 'Aljuned', 'Kallang', 'Lavender', 'Bugis', 'City Hall', 'Raffles Place', 'Tanjong Pagar', 'Outram Park', 'Tiong Bahru', 'Redhill', 'Queenstown', 'Commonwealth', 'Buona Vista', 'Dover', 'Clementi', 'Jurong East', 'Chinese Garden', 'Lakeside', 'Boon Lay', 'Pioneer', 'Joo Koon', 'Gul Circle', 'Tuas Crescent', 'Tuas West Road', 'Tuas Link'], ['Jurong East', 'Bukit Batok', 'Bukit Gombak', 'Choa Chu Kang', 'Yew Tee', 'Kranji', 'Marsiling', 'Woodlands', 'Admiralty', 'Sembawang', 'Canberra', 'Yishun', 'Khatib', 'Yio Chu Kang', 'Ang Mo Kio', 'Bishan', 'Braddell', 'Toa Payoh', 'Novena', 'Newton', 'Orchard', 'Somerset', 'Dhoby Ghaut', 'City Hall', 'Raffles Place', 'Marina Bay', 'Marina South Pier'], ['Tanah Merah', 'Expo', 'Changi Airport']]
+['EastWestLine (EW)', 'NorthSouthLine', 'EastWestLine (CG)']
+Pass:  True
+Test case 3: keys
+[['Pasir Ris', 'Tampines', 'Simei', 'Tanah Merah', 'Bedok', 'Kembangan', 'Eunos', 'Paya Lebar', 'Aljuned', 'Kallang', 'Lavender', 'Bugis', 'City Hall', 'Raffles Place', 'Tanjong Pagar', 'Outram Park', 'Tiong Bahru', 'Redhill', 'Queenstown', 'Commonwealth', 'Buona Vista', 'Dover', 'Clementi', 'Jurong East', 'Chinese Garden', 'Lakeside', 'Boon Lay', 'Pioneer', 'Joo Koon', 'Gul Circle', 'Tuas Crescent', 'Tuas West Road', 'Tuas Link'], ['Jurong East', 'Bukit Batok', 'Bukit Gombak', 'Choa Chu Kang', 'Yew Tee', 'Kranji', 'Marsiling', 'Woodlands', 'Admiralty', 'Sembawang', 'Canberra', 'Yishun', 'Khatib', 'Yio Chu Kang', 'Ang Mo Kio', 'Bishan', 'Braddell', 'Toa Payoh', 'Novena', 'Newton', 'Orchard', 'Somerset', 'Dhoby Ghaut', 'City Hall', 'Raffles Place', 'Marina Bay', 'Marina South Pier'], ['Tanah Merah', 'Expo', 'Changi Airport']]
+['EastWestLine (EW)', 'NorthSouthLine', 'EastWestLine (CG)']
+Pass:  True
+Test case 4: key - value
+[['Pasir Ris', 'Tampines', 'Simei', 'Tanah Merah', 'Bedok', 'Kembangan', 'Eunos', 'Paya Lebar', 'Aljuned', 'Kallang', 'Lavender', 'Bugis', 'City Hall', 'Raffles Place', 'Tanjong Pagar', 'Outram Park', 'Tiong Bahru', 'Redhill', 'Queenstown', 'Commonwealth', 'Buona Vista', 'Dover', 'Clementi', 'Jurong East', 'Chinese Garden', 'Lakeside', 'Boon Lay', 'Pioneer', 'Joo Koon', 'Gul Circle', 'Tuas Crescent', 'Tuas West Road', 'Tuas Link'], ['Jurong East', 'Bukit Batok', 'Bukit Gombak', 'Choa Chu Kang', 'Yew Tee', 'Kranji', 'Marsiling', 'Woodlands', 'Admiralty', 'Sembawang', 'Canberra', 'Yishun', 'Khatib', 'Yio Chu Kang', 'Ang Mo Kio', 'Bishan', 'Braddell', 'Toa Payoh', 'Novena', 'Newton', 'Orchard', 'Somerset', 'Dhoby Ghaut', 'City Hall', 'Raffles Place', 'Marina Bay', 'Marina South Pier'], ['Tanah Merah', 'Expo', 'Changi Airport']]
+['EastWestLine (EW)', 'NorthSouthLine', 'EastWestLine (CG)']
+Pass:  True
+Test case 5: length of keys
+[['Bukit Panjang', 'Cashew', 'Hillview', 'Beauty World', 'King Albert Park', 'Sixth Avenue', 'Tan Kah Kee', 'Botanic Garden', 'Stevens', 'Newton', 'Little India', 'Rochor', 'Bugis', 'Promenade', 'Bayfront', 'Downtown', 'Telok Ayer', 'Chinatown', 'Fort Canning', 'Bencoolen', 'Jalan Besar', 'Bendemeer', 'Geylang Bahru', 'Mattar', 'MacPherson', 'Ubi', 'Kaki Bukit', 'Bedok North', 'Bedok Reservoir', 'Tampines West', 'Tampines', 'Tampines East', 'Upper Changi', 'Expo'], ['Tanah Merah', 'Expo', 'Changi Airport'], ['Pasir Ris', 'Tampines', 'Simei', 'Tanah Merah', 'Bedok', 'Kembangan', 'Eunos', 'Paya Lebar', 'Aljuned', 'Kallang', 'Lavender', 'Bugis', 'City Hall', 'Raffles Place', 'Tanjong Pagar', 'Outram Park', 'Tiong Bahru', 'Redhill', 'Queenstown', 'Commonwealth', 'Buona Vista', 'Dover', 'Clementi', 'Jurong East', 'Chinese Garden', 'Lakeside', 'Boon Lay', 'Pioneer', 'Joo Koon', 'Gul Circle', 'Tuas Crescent', 'Tuas West Road', 'Tuas Link'], ['HarbourFront', 'Outram Park', 'Chinatown', 'Clarke Quay', 'Dhoby Ghaut', 'Little India', 'Farrer Park', 'Boon Keng', 'Potong Pasir', 'Woodleigh', 'Serangoon', 'Kovan', 'Hougang', 'Buangkok', 'Sengkang', 'Punggol'], ['Jurong East', 'Bukit Batok', 'Bukit Gombak', 'Choa Chu Kang', 'Yew Tee', 'Kranji', 'Marsiling', 'Woodlands', 'Admiralty', 'Sembawang', 'Canberra', 'Yishun', 'Khatib', 'Yio Chu Kang', 'Ang Mo Kio', 'Bishan', 'Braddell', 'Toa Payoh', 'Novena', 'Newton', 'Orchard', 'Somerset', 'Dhoby Ghaut', 'City Hall', 'Raffles Place', 'Marina Bay', 'Marina South Pier'], ['Dhoby Ghaut', 'Bras Basah', 'Esplanade', 'Promenade', 'Nicoll Highway', 'Stadium', 'Mountbatten', 'Dakota', 'Paya Lebar', 'MacPherson', 'Tai Seng', 'Bartley', 'Serangoon', 'Lorong Chuan', 'Bishan', 'Marymount', 'Caldecott', 'Botanic Gardens', 'Farrer Road', 'Holland Village', 'Buona Vista', 'One-North', 'Kent Ridge', 'Haw Par Villa', 'Pasir Panjang', 'Labrador Park', 'Telok Blangah', 'HarbourFront']]
+['DowntownLine', 'EastWestLine (CG)', 'EastWestLine (EW)', 'NorthEastLine', 'NorthSouthLine', 'CircleLine']
+Pass:  True
+Test case 6: keys
+[['Bukit Panjang', 'Cashew', 'Hillview', 'Beauty World', 'King Albert Park', 'Sixth Avenue', 'Tan Kah Kee', 'Botanic Garden', 'Stevens', 'Newton', 'Little India', 'Rochor', 'Bugis', 'Promenade', 'Bayfront', 'Downtown', 'Telok Ayer', 'Chinatown', 'Fort Canning', 'Bencoolen', 'Jalan Besar', 'Bendemeer', 'Geylang Bahru', 'Mattar', 'MacPherson', 'Ubi', 'Kaki Bukit', 'Bedok North', 'Bedok Reservoir', 'Tampines West', 'Tampines', 'Tampines East', 'Upper Changi', 'Expo'], ['Tanah Merah', 'Expo', 'Changi Airport'], ['Pasir Ris', 'Tampines', 'Simei', 'Tanah Merah', 'Bedok', 'Kembangan', 'Eunos', 'Paya Lebar', 'Aljuned', 'Kallang', 'Lavender', 'Bugis', 'City Hall', 'Raffles Place', 'Tanjong Pagar', 'Outram Park', 'Tiong Bahru', 'Redhill', 'Queenstown', 'Commonwealth', 'Buona Vista', 'Dover', 'Clementi', 'Jurong East', 'Chinese Garden', 'Lakeside', 'Boon Lay', 'Pioneer', 'Joo Koon', 'Gul Circle', 'Tuas Crescent', 'Tuas West Road', 'Tuas Link'], ['HarbourFront', 'Outram Park', 'Chinatown', 'Clarke Quay', 'Dhoby Ghaut', 'Little India', 'Farrer Park', 'Boon Keng', 'Potong Pasir', 'Woodleigh', 'Serangoon', 'Kovan', 'Hougang', 'Buangkok', 'Sengkang', 'Punggol'], ['Jurong East', 'Bukit Batok', 'Bukit Gombak', 'Choa Chu Kang', 'Yew Tee', 'Kranji', 'Marsiling', 'Woodlands', 'Admiralty', 'Sembawang', 'Canberra', 'Yishun', 'Khatib', 'Yio Chu Kang', 'Ang Mo Kio', 'Bishan', 'Braddell', 'Toa Payoh', 'Novena', 'Newton', 'Orchard', 'Somerset', 'Dhoby Ghaut', 'City Hall', 'Raffles Place', 'Marina Bay', 'Marina South Pier'], ['Dhoby Ghaut', 'Bras Basah', 'Esplanade', 'Promenade', 'Nicoll Highway', 'Stadium', 'Mountbatten', 'Dakota', 'Paya Lebar', 'MacPherson', 'Tai Seng', 'Bartley', 'Serangoon', 'Lorong Chuan', 'Bishan', 'Marymount', 'Caldecott', 'Botanic Gardens', 'Farrer Road', 'Holland Village', 'Buona Vista', 'One-North', 'Kent Ridge', 'Haw Par Villa', 'Pasir Panjang', 'Labrador Park', 'Telok Blangah', 'HarbourFront']]
+['DowntownLine', 'EastWestLine (CG)', 'EastWestLine (EW)', 'NorthEastLine', 'NorthSouthLine', 'CircleLine']
+Pass:  True
+Test case 7: key - value
+[['Bukit Panjang', 'Cashew', 'Hillview', 'Beauty World', 'King Albert Park', 'Sixth Avenue', 'Tan Kah Kee', 'Botanic Garden', 'Stevens', 'Newton', 'Little India', 'Rochor', 'Bugis', 'Promenade', 'Bayfront', 'Downtown', 'Telok Ayer', 'Chinatown', 'Fort Canning', 'Bencoolen', 'Jalan Besar', 'Bendemeer', 'Geylang Bahru', 'Mattar', 'MacPherson', 'Ubi', 'Kaki Bukit', 'Bedok North', 'Bedok Reservoir', 'Tampines West', 'Tampines', 'Tampines East', 'Upper Changi', 'Expo'], ['Tanah Merah', 'Expo', 'Changi Airport'], ['Pasir Ris', 'Tampines', 'Simei', 'Tanah Merah', 'Bedok', 'Kembangan', 'Eunos', 'Paya Lebar', 'Aljuned', 'Kallang', 'Lavender', 'Bugis', 'City Hall', 'Raffles Place', 'Tanjong Pagar', 'Outram Park', 'Tiong Bahru', 'Redhill', 'Queenstown', 'Commonwealth', 'Buona Vista', 'Dover', 'Clementi', 'Jurong East', 'Chinese Garden', 'Lakeside', 'Boon Lay', 'Pioneer', 'Joo Koon', 'Gul Circle', 'Tuas Crescent', 'Tuas West Road', 'Tuas Link'], ['HarbourFront', 'Outram Park', 'Chinatown', 'Clarke Quay', 'Dhoby Ghaut', 'Little India', 'Farrer Park', 'Boon Keng', 'Potong Pasir', 'Woodleigh', 'Serangoon', 'Kovan', 'Hougang', 'Buangkok', 'Sengkang', 'Punggol'], ['Jurong East', 'Bukit Batok', 'Bukit Gombak', 'Choa Chu Kang', 'Yew Tee', 'Kranji', 'Marsiling', 'Woodlands', 'Admiralty', 'Sembawang', 'Canberra', 'Yishun', 'Khatib', 'Yio Chu Kang', 'Ang Mo Kio', 'Bishan', 'Braddell', 'Toa Payoh', 'Novena', 'Newton', 'Orchard', 'Somerset', 'Dhoby Ghaut', 'City Hall', 'Raffles Place', 'Marina Bay', 'Marina South Pier'], ['Dhoby Ghaut', 'Bras Basah', 'Esplanade', 'Promenade', 'Nicoll Highway', 'Stadium', 'Mountbatten', 'Dakota', 'Paya Lebar', 'MacPherson', 'Tai Seng', 'Bartley', 'Serangoon', 'Lorong Chuan', 'Bishan', 'Marymount', 'Caldecott', 'Botanic Gardens', 'Farrer Road', 'Holland Village', 'Buona Vista', 'One-North', 'Kent Ridge', 'Haw Par Villa', 'Pasir Panjang', 'Labrador Park', 'Telok Blangah', 'HarbourFront']]
+['DowntownLine', 'EastWestLine (CG)', 'EastWestLine (EW)', 'NorthEastLine', 'NorthSouthLine', 'CircleLine']
+Pass:  True
+Correct Test Cases: [7/7]
+Test case 1: output type
+Pass:  True
+Test case 2: length of keys
+Pass:  True
+Test case 3: keys
+Pass:  True
+Test case 4: key - value
+Pass:  False
+Test case 5: length of keys
+Pass:  True
+Test case 6: keys
+Pass:  True
+Test case 7: key - value
+Pass:  False
+Correct Test Cases: [5/7]
+Test case 1: output type
+Pass:  False
+Test case 2: length of list
+Error running test case: 1
+Test case 3: values one interchange
+Pass:  False
+Test case 4: values no interchange
+Pass:  False
+Test case 5: values two interchanges
+Pass:  True
+Test case 6: two possible path
+Pass:  False
+Test case 7: test function call
+Pass:  False
+Test case 8: test function call
+Pass:  False
+Test case 9: test function call
+Pass:  False
+Correct Test Cases: [1/9]
+================================
+SUMMARY of CORRECT TEST CASES
+================================
+Part: A, Correct Test Cases: 7/7.
+Part: B, Correct Test Cases: 7/7.
+Part: C, Correct Test Cases: 5/7.
+Part: D, Correct Test Cases: 1/9.

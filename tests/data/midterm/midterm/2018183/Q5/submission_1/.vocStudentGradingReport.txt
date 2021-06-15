@@ -1,0 +1,53 @@
+
+[Executed at: Mon Apr 9 23:12:14 PDT 2018]
+
+1.2
+2.4412212345679007
+86.22633160260025
+4766499460.135112
+None
+Test case 1: nroot
+1.2
+2.4412212345679007
+86.22633160260025
+4766499460.135112
+Pass:  False
+Test case 2: nroot
+2.0
+2047.819247159091
+2.655876193590659e+36
+Error running test case: 2
+Test case 3: nroot
+1.4
+155.478961885926
+7.500228307762042e+32
+Error running test case: 3
+Test case 4: nroot
+2.0
+Pass:  False
+Test case 5: nroot
+Pass:  False
+Test case 6: nroot
+1.5
+Pass:  False
+Test case 7: nroot
+1.4848484848484849
+214299545488.95764
+Error running test case: 7
+Test case 8: nroot_complex
+Pass:  False
+Test case 9: nroot_complex
+Pass:  False
+Test case 10: nroot_complex
+Pass:  False
+Test case 11: nroot_complex
+Pass:  False
+Test case 12: nroot_complex
+Pass:  False
+Test case 13: nroot_complex
+Pass:  False
+Test case 14: nroot_complex
+Pass:  False
+Test case 15: does 'nroot_complex' call 'nroot'?
+Pass:  False
+Score: [0/15]

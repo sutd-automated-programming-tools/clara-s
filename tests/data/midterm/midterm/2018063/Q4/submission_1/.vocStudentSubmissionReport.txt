@@ -1,0 +1,5 @@
+
+[Executed at: Wed Mar 14 1:56:56 PDT 2018]
+
+Error: importing determinant.
+Command exited with non-zero status 1
