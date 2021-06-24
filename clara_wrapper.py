@@ -20,7 +20,6 @@ from ast import literal_eval
 
 # clara imports
 import clara
-print(f'CLARA {clara}')
 
 from clara.common import parseargs, debug
 from clara.feedback import Feedback, FeedGen
