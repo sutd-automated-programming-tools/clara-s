@@ -15,12 +15,6 @@ import traceback
 
 from ast import literal_eval
 
-# clara imports
-# sys.path.insert(0, '..')
-
-# clara imports
-import clara
-
 from clara.common import parseargs, debug
 from clara.feedback import Feedback, FeedGen
 from clara.feedback_repair import RepairFeedback
