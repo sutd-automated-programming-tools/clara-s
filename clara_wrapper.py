@@ -15,19 +15,13 @@ import traceback
 
 from ast import literal_eval
 
-# clara imports
-# sys.path.insert(0, '..')
-
-# clara imports
-import clara
-print(f'CLARA {clara}')
-
 from clara.common import parseargs, debug
 from clara.feedback import Feedback, FeedGen
 from clara.feedback_repair import RepairFeedback
 from clara.feedback_simple import SimpleFeedback
 from clara.feedback_python import PythonFeedback
 from clara.interpreter import getlanginter
+from clara.py_interpreter import PyInterpreter
 from clara.matching import Matching
 from clara.clustering import Clustering
 from clara.model import expr_to_dict, dict_to_expr
