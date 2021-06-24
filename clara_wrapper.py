@@ -28,6 +28,7 @@ from clara.feedback_repair import RepairFeedback
 from clara.feedback_simple import SimpleFeedback
 from clara.feedback_python import PythonFeedback
 from clara.interpreter import getlanginter
+from clara.py_interpreter import PyInterpreter
 from clara.matching import Matching
 from clara.clustering import Clustering
 from clara.model import expr_to_dict, dict_to_expr
