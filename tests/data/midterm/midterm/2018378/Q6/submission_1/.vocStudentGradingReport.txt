@@ -1,0 +1,76 @@
+
+[Executed at: Thu Apr 5 0:45:34 PDT 2018]
+
+{'Pioneer': ['EastWestLine (EW)'], 'Kallang': ['EastWestLine (EW)'], 'Queenstown': ['EastWestLine (EW)'], 'Tuas West Road': ['EastWestLine (EW)'], 'Bukit Batok': ['NorthSouthLine'], 'Sembawang': ['NorthSouthLine'], 'Canberra': ['NorthSouthLine'], 'Bedok': ['EastWestLine (EW)'], 'Tuas Crescent': ['EastWestLine (EW)'], 'Orchard': ['NorthSouthLine'], 'Novena': ['NorthSouthLine'], 'Choa Chu Kang': ['NorthSouthLine'], 'Toa Payoh': ['NorthSouthLine'], 'City Hall': ['EastWestLine (EW)', 'N', 'o', 'r', 't', 'h', 'S', 'o', 'u', 't', 'h', 'L', 'i', 'n', 'e'], 'Bukit Gombak': ['NorthSouthLine'], 'Simei': ['EastWestLine (EW)'], 'Expo': ['EastWestLine (CG)'], 'Commonwealth': ['EastWestLine (EW)'], 'Marina South Pier': ['NorthSouthLine'], 'Tanjong Pagar': ['EastWestLine (EW)'], 'Buona Vista': ['EastWestLine (EW)'], 'Admiralty': ['NorthSouthLine'], 'Yew Tee': ['NorthSouthLine'], 'Braddell': ['NorthSouthLine'], 'Tampines': ['EastWestLine (EW)'], 'Lakeside': ['EastWestLine (EW)'], 'Paya Lebar': ['EastWestLine (EW)'], 'Gul Circle': ['EastWestLine (EW)'], 'Tanah Merah': ['EastWestLine (EW)', 'E', 'a', 's', 't', 'W', 'e', 's', 't', 'L', 'i', 'n', 'e', ' ', '(', 'C', 'G', ')'], 'Jurong East': ['EastWestLine (EW)', 'N', 'o', 'r', 't', 'h', 'S', 'o', 'u', 't', 'h', 'L', 'i', 'n', 'e'], 'Pasir Ris': ['EastWestLine (EW)'], 'Ang Mo Kio': ['NorthSouthLine'], 'Chinese Garden': ['EastWestLine (EW)'], 'Lavender': ['EastWestLine (EW)'], 'Yio Chu Kang': ['NorthSouthLine'], 'Bugis': ['EastWestLine (EW)'], 'Tiong Bahru': ['EastWestLine (EW)'], 'Boon Lay': ['EastWestLine (EW)'], 'Marsiling': ['NorthSouthLine'], 'Aljuned': ['EastWestLine (EW)'], 'Kranji': ['NorthSouthLine'], 'Bishan': ['NorthSouthLine'], 'Dhoby Ghaut': ['NorthSouthLine'], 'Somerset': ['NorthSouthLine'], 'Woodlands': ['NorthSouthLine'], 'Clementi': ['EastWestLine (EW)'], 'Kembangan': ['EastWestLine (EW)'], 'Joo Koon': ['EastWestLine (EW)'], 'Eunos': ['EastWestLine (EW)'], 'Yishun': ['NorthSouthLine'], 'Khatib': ['NorthSouthLine'], 'Raffles Place': ['EastWestLine (EW)', 'N', 'o', 'r', 't', 'h', 'S', 'o', 'u', 't', 'h', 'L', 'i', 'n', 'e'], 'Tuas Link': ['EastWestLine (EW)'], 'Dover': ['EastWestLine (EW)'], 'Changi Airport': ['EastWestLine (CG)'], 'Newton': ['NorthSouthLine'], 'Redhill': ['EastWestLine (EW)'], 'Outram Park': ['EastWestLine (EW)'], 'Marina Bay': ['NorthSouthLine']}
+{'Raffles Place': ['EastWestLine (EW)', 'NorthSouthLine'], 'Tanah Merah': ['EastWestLine (EW)', 'EastWestLine (CG)'], 'Jurong East': ['EastWestLine (EW)', 'NorthSouthLine'], 'City Hall': ['EastWestLine (EW)', 'NorthSouthLine']}
+Test case 1: output type
+Pass:  True
+Test case 2: length of keys
+Pass:  True
+Test case 3: keys
+Pass:  False
+Test case 4: key - value
+Pass:  False
+Test case 5: length of keys
+Pass:  True
+Test case 6: keys
+Pass:  False
+Test case 7: key - value
+Pass:  False
+Correct Test Cases: [3/7]
+Test case 1: output type
+Pass:  True
+Test case 2: length of keys
+Pass:  True
+Test case 3: keys
+Pass:  True
+Test case 4: key - value
+Pass:  False
+Test case 5: length of keys
+Pass:  True
+Test case 6: keys
+Pass:  True
+Test case 7: key - value
+Pass:  False
+Correct Test Cases: [5/7]
+Test case 1: output type
+Pass:  True
+Test case 2: length of keys
+Pass:  True
+Test case 3: keys
+Pass:  True
+Test case 4: key - value
+Pass:  False
+Test case 5: length of keys
+Pass:  True
+Test case 6: keys
+Pass:  True
+Test case 7: key - value
+Pass:  False
+Correct Test Cases: [5/7]
+Test case 1: output type
+Pass:  False
+Test case 2: length of list
+Error running test case: 1
+Test case 3: values one interchange
+Pass:  False
+Test case 4: values no interchange
+Pass:  False
+Test case 5: values two interchanges
+Pass:  True
+Test case 6: two possible path
+Pass:  False
+Test case 7: test function call
+Pass:  False
+Test case 8: test function call
+Pass:  False
+Test case 9: test function call
+Pass:  False
+Correct Test Cases: [1/9]
+================================
+SUMMARY of CORRECT TEST CASES
+================================
+Part: A, Correct Test Cases: 3/7.
+Part: B, Correct Test Cases: 5/7.
+Part: C, Correct Test Cases: 5/7.
+Part: D, Correct Test Cases: 1/9.

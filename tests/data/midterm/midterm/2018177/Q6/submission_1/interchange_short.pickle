@@ -1,0 +1,11 @@
+
+def read_stations(f):
+    emp = []
+    mrt_dic = {}
+    for line in f:
+        f1 = linee.strip()
+        f2 = f1.split()
+        emp.append(f2)
+    mrt_dic.keys() = emp[0]
+    mrt_dic[0] = emp[1]
+    return mrt_dic

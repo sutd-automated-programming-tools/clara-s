@@ -1,0 +1,10 @@
+def read_stations(f):
+    dic={}
+    string = ""
+    s= f.readlines()
+    for i in s:
+        string+=i
+    string.split(" ")
+    dic[string[0]] = string[1]
+
+    return dic

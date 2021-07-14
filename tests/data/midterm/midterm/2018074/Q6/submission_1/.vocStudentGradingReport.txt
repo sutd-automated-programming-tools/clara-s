@@ -1,0 +1,83 @@
+
+[Executed at: Sun Mar 18 23:36:42 PDT 2018]
+
+{'Jurong East': ('EastWestLine (EW)', 'NorthSouthLine'), 'Joo Koon': 'EastWestLine (EW)', 'Chinese Garden': 'EastWestLine (EW)', 'Tiong Bahru': 'EastWestLine (EW)', 'Tuas Crescent': 'EastWestLine (EW)', 'Toa Payoh': 'NorthSouthLine', 'Braddell': 'NorthSouthLine', 'Clementi': 'EastWestLine (EW)', 'City Hall': ('EastWestLine (EW)', 'NorthSouthLine'), 'Yew Tee': 'NorthSouthLine', 'Ang Mo Kio': 'NorthSouthLine', 'Tanah Merah': ('EastWestLine (CG)', 'EastWestLine (EW)'), 'Woodlands': 'NorthSouthLine', 'Lavender': 'EastWestLine (EW)', 'Tuas West Road': 'EastWestLine (EW)', 'Pasir Ris': 'EastWestLine (EW)', 'Paya Lebar': 'EastWestLine (EW)', 'Raffles Place': ('EastWestLine (EW)', 'NorthSouthLine'), 'Sembawang': 'NorthSouthLine', 'Bugis': 'EastWestLine (EW)', 'Dover': 'EastWestLine (EW)', 'Tuas Link': 'EastWestLine (EW)', 'Boon Lay': 'EastWestLine (EW)', 'Bukit Batok': 'NorthSouthLine', 'Canberra': 'NorthSouthLine', 'Marsiling': 'NorthSouthLine', 'Tanjong Pagar': 'EastWestLine (EW)', 'Novena': 'NorthSouthLine', 'Redhill': 'EastWestLine (EW)', 'Bedok': 'EastWestLine (EW)', 'Queenstown': 'EastWestLine (EW)', 'Kranji': 'NorthSouthLine', 'Kallang': 'EastWestLine (EW)', 'Bishan': 'NorthSouthLine', 'Aljuned': 'EastWestLine (EW)', 'Kembangan': 'EastWestLine (EW)', 'Changi Airport': 'EastWestLine (CG)', 'Dhoby Ghaut': 'NorthSouthLine', 'Marina South Pier': 'NorthSouthLine', 'Somerset': 'NorthSouthLine', 'Expo': 'EastWestLine (CG)', 'Yishun': 'NorthSouthLine', 'Tampines': 'EastWestLine (EW)', 'Outram Park': 'EastWestLine (EW)', 'Lakeside': 'EastWestLine (EW)', 'Simei': 'EastWestLine (EW)', 'Orchard': 'NorthSouthLine', 'Buona Vista': 'EastWestLine (EW)', 'Admiralty': 'NorthSouthLine', 'Yio Chu Kang': 'NorthSouthLine', 'Commonwealth': 'EastWestLine (EW)', 'Bukit Gombak': 'NorthSouthLine', 'Marina Bay': 'NorthSouthLine', 'Newton': 'NorthSouthLine', 'Gul Circle': 'EastWestLine (EW)', 'Khatib': 'NorthSouthLine', 'Choa Chu Kang': 'NorthSouthLine', 'Eunos': 'EastWestLine (EW)', 'Pioneer': 'EastWestLine (EW)'}
+{'Jurong East': ['EastWestLine (EW)', 'NorthSouthLine'], 'Tanah Merah': ['EastWestLine (EW)', 'EastWestLine (CG)'], 'Raffles Place': ['EastWestLine (EW)', 'NorthSouthLine'], 'City Hall': ['EastWestLine (EW)', 'NorthSouthLine']}
+Test case 1: output type
+EastWestLine (EW)
+Pass:  True
+Test case 2: length of keys
+EastWestLine (EW)
+Pass:  True
+Test case 3: keys
+EastWestLine (EW)
+Pass:  True
+Test case 4: key - value
+EastWestLine (EW)
+Pass:  False
+Test case 5: length of keys
+EastWestLine (EW)
+Pass:  False
+Test case 6: keys
+EastWestLine (EW)
+Pass:  False
+Test case 7: key - value
+EastWestLine (EW)
+Pass:  False
+Correct Test Cases: [3/7]
+Test case 1: output type
+Pass:  True
+Test case 2: length of keys
+Pass:  True
+Test case 3: keys
+Pass:  True
+Test case 4: key - value
+Pass:  False
+Test case 5: length of keys
+Pass:  True
+Test case 6: keys
+Pass:  True
+Test case 7: key - value
+Pass:  False
+Correct Test Cases: [5/7]
+Test case 1: output type
+Pass:  True
+Test case 2: length of keys
+Pass:  True
+Test case 3: keys
+Pass:  True
+Test case 4: key - value
+Pass:  False
+Test case 5: length of keys
+Pass:  True
+Test case 6: keys
+Pass:  True
+Test case 7: key - value
+Pass:  False
+Correct Test Cases: [5/7]
+Test case 1: output type
+Error running test case: 0
+Test case 2: length of list
+Error running test case: 1
+Test case 3: values one interchange
+Error running test case: 2
+Test case 4: values no interchange
+Error running test case: 3
+Test case 5: values two interchanges
+Error running test case: 4
+Test case 6: two possible path
+Error running test case: 5
+Test case 7: test function call
+Pass:  True
+Test case 8: test function call
+Pass:  True
+Test case 9: test function call
+Pass:  True
+Correct Test Cases: [3/9]
+================================
+SUMMARY of CORRECT TEST CASES
+================================
+Part: A, Correct Test Cases: 3/7.
+Part: B, Correct Test Cases: 5/7.
+Part: C, Correct Test Cases: 5/7.
+Part: D, Correct Test Cases: 3/9.

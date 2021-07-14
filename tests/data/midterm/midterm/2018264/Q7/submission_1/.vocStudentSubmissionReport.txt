@@ -1,0 +1,5 @@
+
+[Executed at: Wed Mar 14 1:51:16 PDT 2018]
+
+Error: importing decompose.
+Command exited with non-zero status 1

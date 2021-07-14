@@ -1,0 +1,24 @@
+
+[Executed at: Sun Mar 18 23:52:11 PDT 2018]
+
+Test case 1: area_square
+Pass:  True
+Test case 2: area_square
+Pass:  True
+Test case 3: area_square
+Pass:  True
+Test case 4: vol_frustum
+Pass:  True
+Test case 5: vol_frustum
+Pass:  True
+Test case 6: vol_frustum
+Pass:  True
+Test case 7: get_volume
+Pass:  True
+Test case 8: get_volume
+Pass:  True
+Test case 9: get_volume
+Pass:  True
+Test case 10: does 'get_volume' call the other two functions?
+Pass:  True
+Score: [10/10]

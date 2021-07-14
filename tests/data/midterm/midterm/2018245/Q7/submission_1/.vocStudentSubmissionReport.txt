@@ -1,0 +1,64 @@
+
+[Executed at: Wed Mar 14 1:53:48 PDT 2018]
+
+Correct file submitted; running sanity test...
+Test case 1
+Pass:  False
+Test case 2
+<generator object decompose.<locals>.<genexpr> at 0x7fc04b02d0f8>
+Pass:  True
+Test case 3
+<generator object decompose.<locals>.<genexpr> at 0x7fc04b02d0f8>
+Pass:  True
+Test case 4
+<generator object decompose.<locals>.<genexpr> at 0x7fc04b02d0f8>
+<generator object decompose.<locals>.<genexpr> at 0x7fc04b02d0f8>
+Pass:  False
+Test case 5
+<generator object decompose.<locals>.<genexpr> at 0x7fc04b02d0f8>
+Pass:  False
+Test case 6
+<generator object decompose.<locals>.<genexpr> at 0x7fc04b02d0f8>
+Pass:  False
+Test case 7
+<generator object decompose.<locals>.<genexpr> at 0x7fc04b02d0f8>
+<generator object decompose.<locals>.<genexpr> at 0x7fc04b02d0f8>
+Pass:  False
+Test case 8
+<generator object decompose.<locals>.<genexpr> at 0x7fc04b02d0f8>
+<generator object decompose.<locals>.<genexpr> at 0x7fc04b02d0f8>
+Pass:  False
+Test case 9
+<generator object decompose.<locals>.<genexpr> at 0x7fc04b02d0f8>
+<generator object decompose.<locals>.<genexpr> at 0x7fc04b02d0f8>
+<generator object decompose.<locals>.<genexpr> at 0x7fc04b02d0f8>
+Pass:  False
+Test case 10
+<generator object decompose.<locals>.<genexpr> at 0x7fc04b02d0f8>
+Pass:  False
+Test case 11
+<generator object decompose.<locals>.<genexpr> at 0x7fc04b02d0f8>
+<generator object decompose.<locals>.<genexpr> at 0x7fc04b02d0f8>
+Pass:  False
+Test case 12
+<generator object decompose.<locals>.<genexpr> at 0x7fc04b02d0f8>
+<generator object decompose.<locals>.<genexpr> at 0x7fc04b02d0f8>
+<generator object decompose.<locals>.<genexpr> at 0x7fc04b02d0f8>
+<generator object decompose.<locals>.<genexpr> at 0x7fc04b02d0f8>
+Pass:  False
+Test case 13
+<generator object decompose.<locals>.<genexpr> at 0x7fc04b02d0f8>
+<generator object decompose.<locals>.<genexpr> at 0x7fc04b02d0f8>
+Pass:  False
+Test case 14
+<generator object decompose.<locals>.<genexpr> at 0x7fc04b02d0f8>
+<generator object decompose.<locals>.<genexpr> at 0x7fc04b02d0f8>
+<generator object decompose.<locals>.<genexpr> at 0x7fc04b02d0f8>
+<generator object decompose.<locals>.<genexpr> at 0x7fc04b02d0f8>
+<generator object decompose.<locals>.<genexpr> at 0x7fc04b02d0f8>
+<generator object decompose.<locals>.<genexpr> at 0x7fc04b02d0f8>
+Pass:  False
+Test case 15
+<generator object decompose.<locals>.<genexpr> at 0x7fc04b02d0f8>
+Pass:  False
+Correct Test Cases: [2/15]

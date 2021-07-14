@@ -1,0 +1,52 @@
+
+[Executed at: Sun Mar 18 23:26:11 PDT 2018]
+
+Test case 1:
+Pass:  True
+Test case 2:
+[[-5, -4], [-2, -3]]
+2x2
+Pass:  True
+Test case 3:
+[[2, -3, 1], [2, 0, -1], [1, 4, 5]]
+3x3
+Pass:  True
+Test case 4:
+invalid
+Pass:  True
+Test case 5:
+Pass:  True
+Test case 6:
+[[5, 4], [2, 3]]
+2x2
+Pass:  True
+Test case 7:
+[[-2, 3, -1], [-2, 0, 1], [-1, -4, -5]]
+3x3
+Pass:  True
+Test case 8:
+invalid
+Pass:  True
+Test case 9:
+invalid
+Pass:  True
+Test case 10:
+invalid
+Pass:  True
+Test case 11:
+invalid
+Pass:  True
+Test case 12:
+[[-5, -4], [-2, -3]]
+2x2
+Pass:  True
+Test case 13:
+invalid
+Pass:  True
+Test case 14:
+Pass:  True
+Test case 15:
+[[-2, 3, -1], [-2, 0, 1], [-1, -4, -5]]
+3x3
+Pass:  True
+Correct Test Cases: [15/15]

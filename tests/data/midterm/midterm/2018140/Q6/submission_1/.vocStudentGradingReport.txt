@@ -1,0 +1,84 @@
+
+[Executed at: Sun Mar 18 23:29:00 PDT 2018]
+
+{'Lakeside': ['EastWestLine (EW)'], 'Marina Bay': ['NorthSouthLine'], 'Bedok': ['EastWestLine (EW)'], 'Redhill': ['EastWestLine (EW)'], 'Tanah Merah': ['EastWestLine (EW)', 'EastWestLine (CG)'], 'Woodlands': ['NorthSouthLine'], 'Gul Circle': ['EastWestLine (EW)'], 'Tampines': ['EastWestLine (EW)'], 'Yew Tee': ['NorthSouthLine'], 'Tanjong Pagar': ['EastWestLine (EW)'], 'Braddell': ['NorthSouthLine'], 'Ang Mo Kio': ['NorthSouthLine'], 'Orchard': ['NorthSouthLine'], 'Toa Payoh': ['NorthSouthLine'], 'Raffles Place': ['EastWestLine (EW)', 'NorthSouthLine'], 'Tuas Crescent': ['EastWestLine (EW)'], 'Marsiling': ['NorthSouthLine'], 'Simei': ['EastWestLine (EW)'], 'Outram Park': ['EastWestLine (EW)'], 'Choa Chu Kang': ['NorthSouthLine'], 'Yishun': ['NorthSouthLine'], 'Buona Vista': ['EastWestLine (EW)'], 'Kallang': ['EastWestLine (EW)'], 'Tiong Bahru': ['EastWestLine (EW)'], 'Changi Airport': ['EastWestLine (CG)'], 'Jurong East': ['EastWestLine (EW)', 'NorthSouthLine'], 'Bishan': ['NorthSouthLine'], 'Dover': ['EastWestLine (EW)'], 'Somerset': ['NorthSouthLine'], 'Tuas West Road': ['EastWestLine (EW)'], 'Marina South Pier': ['NorthSouthLine'], 'Novena': ['NorthSouthLine'], 'Sembawang': ['NorthSouthLine'], 'Admiralty': ['NorthSouthLine'], 'Chinese Garden': ['EastWestLine (EW)'], 'Tuas Link': ['EastWestLine (EW)'], 'Canberra': ['NorthSouthLine'], 'Bukit Gombak': ['NorthSouthLine'], 'Yio Chu Kang': ['NorthSouthLine'], 'Eunos': ['EastWestLine (EW)'], 'Dhoby Ghaut': ['NorthSouthLine'], 'Aljuned': ['EastWestLine (EW)'], 'Kranji': ['NorthSouthLine'], 'Bugis': ['EastWestLine (EW)'], 'Newton': ['NorthSouthLine'], 'Lavender': ['EastWestLine (EW)'], 'Clementi': ['EastWestLine (EW)'], 'Boon Lay': ['EastWestLine (EW)'], 'City Hall': ['EastWestLine (EW)', 'NorthSouthLine'], 'Joo Koon': ['EastWestLine (EW)'], 'Expo': ['EastWestLine (CG)'], 'Khatib': ['NorthSouthLine'], 'Kembangan': ['EastWestLine (EW)'], 'Pasir Ris': ['EastWestLine (EW)'], 'Paya Lebar': ['EastWestLine (EW)'], 'Pioneer': ['EastWestLine (EW)'], 'Queenstown': ['EastWestLine (EW)'], 'Bukit Batok': ['NorthSouthLine'], 'Commonwealth': ['EastWestLine (EW)']}
+{'Tanah Merah': ['EastWestLine (EW)', 'EastWestLine (CG)'], 'Raffles Place': ['EastWestLine (EW)', 'NorthSouthLine'], 'City Hall': ['EastWestLine (EW)', 'NorthSouthLine'], 'Jurong East': ['EastWestLine (EW)', 'NorthSouthLine']}
+Test case 1: output type
+Pass:  True
+Test case 2: length of keys
+Pass:  True
+Test case 3: keys
+Pass:  True
+Test case 4: key - value
+Pass:  True
+Test case 5: length of keys
+Pass:  True
+Test case 6: keys
+Pass:  True
+Test case 7: key - value
+Pass:  True
+Correct Test Cases: [7/7]
+Test case 1: output type
+Pass:  True
+Test case 2: length of keys
+Pass:  True
+Test case 3: keys
+Pass:  True
+Test case 4: key - value
+Pass:  True
+Test case 5: length of keys
+Pass:  True
+Test case 6: keys
+Pass:  True
+Test case 7: key - value
+Pass:  True
+Correct Test Cases: [7/7]
+Test case 1: output type
+Pass:  True
+Test case 2: length of keys
+Pass:  True
+Test case 3: keys
+Pass:  True
+Test case 4: key - value
+Pass:  False
+Test case 5: length of keys
+Pass:  True
+Test case 6: keys
+Pass:  True
+Test case 7: key - value
+Pass:  False
+Correct Test Cases: [5/7]
+Test case 1: output type
+['EastWestLine (EW)']
+Pass:  False
+Test case 2: length of list
+['EastWestLine (EW)']
+Error running test case: 1
+Test case 3: values one interchange
+['EastWestLine (EW)']
+Pass:  False
+Test case 4: values no interchange
+['EastWestLine (EW)']
+28
+16
+Pass:  True
+Test case 5: values two interchanges
+['EastWestLine (CG)']
+Pass:  True
+Test case 6: two possible path
+['EastWestLine (EW)']
+Pass:  False
+Test case 7: test function call
+Pass:  True
+Test case 8: test function call
+Pass:  True
+Test case 9: test function call
+Pass:  True
+Correct Test Cases: [5/9]
+================================
+SUMMARY of CORRECT TEST CASES
+================================
+Part: A, Correct Test Cases: 7/7.
+Part: B, Correct Test Cases: 7/7.
+Part: C, Correct Test Cases: 5/7.
+Part: D, Correct Test Cases: 5/9.

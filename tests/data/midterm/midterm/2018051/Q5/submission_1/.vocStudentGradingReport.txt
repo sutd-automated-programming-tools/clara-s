@@ -1,0 +1,13 @@
+
+[Executed at: Tue Apr 10 21:56:12 PDT 2018]
+
+Traceback (most recent call last):
+  File "/home/ccc_v1_c79523__48809/asn24778_45/asn24781_3/asnlib/autograde.py", line 14, in <module>
+    score=runtest.main()
+  File "/home/ccc_v1_c79523__48809/asn24778_45/asn24781_3/asnlib/runtestcases.py", line 77, in main
+    stu_work=getattr(__import__(work_package, fromlist=fun_name), f)
+  File "./q5_work.py", line 4
+    nroot(0) = 1
+       ^
+SyntaxError: can't assign to function call
+Command exited with non-zero status 1

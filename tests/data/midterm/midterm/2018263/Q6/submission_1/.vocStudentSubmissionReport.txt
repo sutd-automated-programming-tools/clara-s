@@ -1,0 +1,13 @@
+
+[Executed at: Wed Mar 14 1:53:00 PDT 2018]
+
+{'Queenstown': ['EastWestLine (EW)'], 'Novena': ['NorthSouthLine'], 'Changi Airport': ['EastWestLine (CG)'], 'Clementi': ['EastWestLine (EW)'], 'Bishan': ['NorthSouthLine'], 'Tampines': ['EastWestLine (EW)'], 'Khatib': ['NorthSouthLine'], 'Tuas West Road': ['EastWestLine (EW)'], 'Braddell': ['NorthSouthLine'], 'Dhoby Ghaut': ['NorthSouthLine'], 'Pioneer': ['EastWestLine (EW)'], 'Yishun': ['NorthSouthLine'], 'Lakeside': ['EastWestLine (EW)'], 'Outram Park': ['EastWestLine (EW)'], 'Pasir Ris': ['EastWestLine (EW)'], 'Gul Circle': ['EastWestLine (EW)'], 'Somerset': ['NorthSouthLine'], 'Tuas Crescent': ['EastWestLine (EW)'], 'Orchard': ['NorthSouthLine'], 'Ang Mo Kio': ['NorthSouthLine'], 'Raffles Place': ['NorthSouthLine', 'EastWestLine (EW)', 'NorthSouthLine', 'EastWestLine (EW)'], 'Marina South Pier': ['NorthSouthLine'], 'Paya Lebar': ['EastWestLine (EW)'], 'Marina Bay': ['NorthSouthLine'], 'Kallang': ['EastWestLine (EW)'], 'Kranji': ['NorthSouthLine'], 'Choa Chu Kang': ['NorthSouthLine'], 'Dover': ['EastWestLine (EW)'], 'Bedok': ['EastWestLine (EW)'], 'Aljuned': ['EastWestLine (EW)'], 'Tanah Merah': ['EastWestLine (CG)', 'EastWestLine (EW)', 'EastWestLine (CG)', 'EastWestLine (EW)'], 'Newton': ['NorthSouthLine'], 'Jurong East': ['NorthSouthLine', 'EastWestLine (EW)', 'NorthSouthLine', 'EastWestLine (EW)'], 'Woodlands': ['NorthSouthLine'], 'Bukit Gombak': ['NorthSouthLine'], 'Bukit Batok': ['NorthSouthLine'], 'Yio Chu Kang': ['NorthSouthLine'], 'Commonwealth': ['EastWestLine (EW)'], 'Buona Vista': ['EastWestLine (EW)'], 'Kembangan': ['EastWestLine (EW)'], 'Boon Lay': ['EastWestLine (EW)'], 'Yew Tee': ['NorthSouthLine'], 'Toa Payoh': ['NorthSouthLine'], 'Marsiling': ['NorthSouthLine'], 'Admiralty': ['NorthSouthLine'], 'Sembawang': ['NorthSouthLine'], 'Expo': ['EastWestLine (CG)'], 'Redhill': ['EastWestLine (EW)'], 'Tuas Link': ['EastWestLine (EW)'], 'Tanjong Pagar': ['EastWestLine (EW)'], 'Chinese Garden': ['EastWestLine (EW)'], 'Simei': ['EastWestLine (EW)'], 'Eunos': ['EastWestLine (EW)'], 'City Hall': ['NorthSouthLine', 'EastWestLine (EW)', 'NorthSouthLine', 'EastWestLine (EW)'], 'Canberra': ['NorthSouthLine'], 'Lavender': ['EastWestLine (EW)'], 'Bugis': ['EastWestLine (EW)'], 'Joo Koon': ['EastWestLine (EW)'], 'Tiong Bahru': ['EastWestLine (EW)']}
+Traceback (most recent call last):
+  File "/home/ccc_v1_c79523__48809/asn24778_45/asn24782_4/asnlib/submission.py", line 8, in <module>
+    from q6_work import find_path
+  File "./q6_work.py", line 58, in <module>
+    print(get_interchange(lines))
+  File "./q6_work.py", line 41, in get_interchange
+    for j in key:
+RuntimeError: dictionary changed size during iteration
+Command exited with non-zero status 1

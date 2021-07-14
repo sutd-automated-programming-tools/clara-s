@@ -1,0 +1,47 @@
+
+[Executed at: Wed Mar 14 1:07:12 PDT 2018]
+
+Correct file submitted; running sanity test...
+Test case 1: nroot
+1.414
+Pass:  True
+Test case 2: nroot
+3.464
+Pass:  False
+Test case 3: nroot
+2.646
+Pass:  False
+Test case 4: nroot
+1.732
+Pass:  False
+Test case 5: nroot
+1.0
+Pass:  True
+Test case 6: nroot
+1.414
+Pass:  False
+Test case 7: nroot
+5.745
+Pass:  False
+Test case 8: nroot_complex
+Error running test case: 8
+Test case 9: nroot_complex
+Error running test case: 9
+Test case 10: nroot_complex
+2j
+Pass:  True
+Test case 11: nroot_complex
+3.1622776601683795j
+Pass:  False
+Test case 12: nroot_complex
+3.4641016151377544j
+Pass:  False
+Test case 13: nroot_complex
+-2.0
+Pass:  True
+Test case 14: nroot_complex
+-3.0
+Pass:  False
+Test case 15: does 'nroot_complex' call 'nroot'?
+Pass:  False
+Score: [4/15]

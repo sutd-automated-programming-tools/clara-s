@@ -1,0 +1,11 @@
+
+[Executed at: Wed Mar 14 1:56:04 PDT 2018]
+
+{'Newton': None, 'Bukit Gombak': None, 'Lakeside': None, 'Expo': None, 'Kranji': None, 'Outram Park': None, 'Simei': None, 'Marina Bay': None, 'Khatib': None, 'Sembawang': None, 'Canberra': None, 'Paya Lebar': None, 'Bedok': None, 'Chinese Garden': None, 'Raffles Place': None, 'Joo Koon': None, 'Kallang': None, 'Bugis': None, 'Marina South Pier': None, 'Buona Vista': None, 'Commonwealth': None, 'Redhill': None, 'Novena': None, 'Tuas West Road': None, 'Somerset': None, 'Lavender': None, 'Toa Payoh': None, 'Dover': None, 'Jurong East': None, 'Tuas Link': None, 'Changi Airport': None, 'Clementi': None, 'Tanah Merah': None, 'Tampines': None, 'Queenstown': None, 'Dhoby Ghaut': None, 'Marsiling': None, 'Pasir Ris': None, 'Admiralty': None, 'Woodlands': None, 'Choa Chu Kang': None, 'Tuas Crescent': None, 'Aljuned': None, 'Bukit Batok': None, 'Braddell': None, 'Kembangan': None, 'Yishun': None, 'Boon Lay': None, 'Ang Mo Kio': None, 'Gul Circle': None, 'City Hall': None, 'Bishan': None, 'Tanjong Pagar': None, 'Eunos': None, 'Pioneer': None, 'Tiong Bahru': None, 'Yio Chu Kang': None, 'Yew Tee': None, 'Orchard': None}
+Traceback (most recent call last):
+  File "/home/ccc_v1_c79523__48809/asn24778_45/asn24782_4/asnlib/submission.py", line 8, in <module>
+    from q6_work import find_path
+  File "./q6_work.py", line 41, in <module>
+    print(get_interchange(lines))
+NameError: name 'get_interchange' is not defined
+Command exited with non-zero status 1

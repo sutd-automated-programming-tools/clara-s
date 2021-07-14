@@ -1,0 +1,61 @@
+
+[Executed at: Sun Mar 18 23:50:26 PDT 2018]
+
+{'Aljuned': 'EastWestLine (EW)', 'Tiong Bahru': 'EastWestLine (EW)', 'Lavender': 'EastWestLine (EW)', 'Tanah Merah': 'EastWestLine (CG)', 'Gul Circle': 'EastWestLine (EW)', 'Bedok': 'EastWestLine (EW)', 'Commonwealth': 'EastWestLine (EW)', 'Jurong East': 'NorthSouthLine', 'Orchard': 'NorthSouthLine', 'Chinese Garden': 'EastWestLine (EW)', 'Redhill': 'EastWestLine (EW)', 'Queenstown': 'EastWestLine (EW)', 'Dover': 'EastWestLine (EW)', 'Bugis': 'EastWestLine (EW)', 'Tanjong Pagar': 'EastWestLine (EW)', 'Kembangan': 'EastWestLine (EW)', 'Kallang': 'EastWestLine (EW)', 'Marina South Pier': 'NorthSouthLine', 'Marina Bay': 'NorthSouthLine', 'Tuas Link': 'EastWestLine (EW)', 'Sembawang': 'NorthSouthLine', 'Changi Airport': 'EastWestLine (CG)', 'Pioneer': 'EastWestLine (EW)', 'Braddell': 'NorthSouthLine', 'Ang Mo Kio': 'NorthSouthLine', 'Dhoby Ghaut': 'NorthSouthLine', 'Yio Chu Kang': 'NorthSouthLine', 'Bishan': 'NorthSouthLine', 'Newton': 'NorthSouthLine', 'Tuas West Road': 'EastWestLine (EW)', 'Novena': 'NorthSouthLine', 'Eunos': 'EastWestLine (EW)', 'Khatib': 'NorthSouthLine', 'Marsiling': 'NorthSouthLine', 'Yew Tee': 'NorthSouthLine', 'Woodlands': 'NorthSouthLine', 'Pasir Ris': 'EastWestLine (EW)', 'Paya Lebar': 'EastWestLine (EW)', 'Buona Vista': 'EastWestLine (EW)', 'Canberra': 'NorthSouthLine', 'Bukit Batok': 'NorthSouthLine', 'Admiralty': 'NorthSouthLine', 'Expo': 'EastWestLine (CG)', 'Toa Payoh': 'NorthSouthLine', 'Outram Park': 'EastWestLine (EW)', 'Boon Lay': 'EastWestLine (EW)', 'City Hall': 'NorthSouthLine', 'Choa Chu Kang': 'NorthSouthLine', 'Raffles Place': 'NorthSouthLine', 'Simei': 'EastWestLine (EW)', 'Tampines': 'EastWestLine (EW)', 'Joo Koon': 'EastWestLine (EW)', 'Yishun': 'NorthSouthLine', 'Lakeside': 'EastWestLine (EW)', 'Kranji': 'NorthSouthLine', 'Clementi': 'EastWestLine (EW)', 'Somerset': 'NorthSouthLine', 'Tuas Crescent': 'EastWestLine (EW)', 'Bukit Gombak': 'NorthSouthLine'}
+{'Khatib': [['NorthSouthLine']], 'Orchard': [['NorthSouthLine']], 'Ang Mo Kio': [['NorthSouthLine']], 'Yew Tee': [['NorthSouthLine']], 'Yio Chu Kang': [['NorthSouthLine']], 'Marina South Pier': [['NorthSouthLine']], 'Woodlands': [['NorthSouthLine']], 'Canberra': [['NorthSouthLine']], 'Bukit Batok': [['NorthSouthLine']], 'Admiralty': [['NorthSouthLine']], 'Marsiling': [['NorthSouthLine']], 'Dhoby Ghaut': [['NorthSouthLine']], 'Sembawang': [['NorthSouthLine']], 'Choa Chu Kang': [['NorthSouthLine']], 'Braddell': [['NorthSouthLine']], 'Yishun': [['NorthSouthLine']], 'Toa Payoh': [['NorthSouthLine']], 'Kranji': [['NorthSouthLine']], 'Bishan': [['NorthSouthLine']], 'Somerset': [['NorthSouthLine']], 'Marina Bay': [['NorthSouthLine']], 'Newton': [['NorthSouthLine']], 'Novena': [['NorthSouthLine']], 'Bukit Gombak': [['NorthSouthLine']]}
+Test case 1: output type
+Pass:  True
+Test case 2: length of keys
+Pass:  True
+Test case 3: keys
+Pass:  True
+Test case 4: key - value
+Pass:  False
+Test case 5: length of keys
+Pass:  True
+Test case 6: keys
+Pass:  True
+Test case 7: key - value
+Pass:  False
+Correct Test Cases: [5/7]
+Test case 1: output type
+Pass:  True
+Test case 2: length of keys
+Pass:  False
+Test case 3: keys
+Pass:  False
+Test case 4: key - value
+Pass:  False
+Test case 5: length of keys
+Pass:  False
+Test case 6: keys
+Pass:  False
+Test case 7: key - value
+Pass:  False
+Correct Test Cases: [1/7]
+Test case 1: output type
+Pass:  False
+Test case 2: length of list
+Error running test case: 1
+Test case 3: values one interchange
+Pass:  False
+Test case 4: values no interchange
+Pass:  False
+Test case 5: values two interchanges
+Pass:  True
+Test case 6: two possible path
+Pass:  False
+Test case 7: test function call
+Pass:  False
+Test case 8: test function call
+Pass:  False
+Test case 9: test function call
+Pass:  False
+Correct Test Cases: [1/9]
+================================
+SUMMARY of CORRECT TEST CASES
+================================
+Part: A, Correct Test Cases: 0/7.
+Part: B, Correct Test Cases: 5/7.
+Part: C, Correct Test Cases: 1/7.
+Part: D, Correct Test Cases: 1/9.

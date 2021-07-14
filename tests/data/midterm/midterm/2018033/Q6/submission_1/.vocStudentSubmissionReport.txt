@@ -1,0 +1,7 @@
+
+[Executed at: Wed Mar 14 1:39:27 PDT 2018]
+
+{'G': ['EastWestLine (CG)'], 't': ['NorthSouthLine', 'NorthSouthLine', 'EastWestLine (EW)', 'EastWestLine (EW)', 'EastWestLine (CG)', 'EastWestLine (CG)'], 'u': ['NorthSouthLine'], 's': ['EastWestLine (EW)', 'EastWestLine (EW)', 'EastWestLine (CG)', 'EastWestLine (CG)'], 'N': ['NorthSouthLine'], 'o': ['NorthSouthLine', 'NorthSouthLine'], 'i': ['NorthSouthLine', 'EastWestLine (EW)', 'EastWestLine (CG)'], 'W': ['EastWestLine (EW)', 'EastWestLine (EW)', 'EastWestLine (CG)'], 'n': ['NorthSouthLine', 'EastWestLine (EW)', 'EastWestLine (CG)'], 'S': ['NorthSouthLine'], 'r': ['NorthSouthLine'], 'a': ['EastWestLine (EW)', 'EastWestLine (CG)'], ' ': ['EastWestLine (EW)', 'EastWestLine (CG)'], 'C': ['EastWestLine (CG)'], 'L': ['NorthSouthLine', 'EastWestLine (EW)', 'EastWestLine (CG)'], ')': ['EastWestLine (EW)', 'EastWestLine (CG)'], 'E': ['EastWestLine (EW)', 'EastWestLine (EW)', 'EastWestLine (CG)'], '(': ['EastWestLine (EW)', 'EastWestLine (CG)'], 'e': ['NorthSouthLine', 'EastWestLine (EW)', 'EastWestLine (EW)', 'EastWestLine (CG)', 'EastWestLine (CG)'], 'h': ['NorthSouthLine', 'NorthSouthLine']}
+{'Jurong East': ['EastWestLine (EW)', 'NorthSouthLine'], 'City Hall': ['EastWestLine (EW)', 'NorthSouthLine'], 'Tanah Merah': ['EastWestLine (EW)', 'EastWestLine (CG)'], 'Raffles Place': ['EastWestLine (EW)', 'NorthSouthLine']}
+Correct file submitted; running sanity test...
+Warning: Your find_path does not seem to call the other three functions.

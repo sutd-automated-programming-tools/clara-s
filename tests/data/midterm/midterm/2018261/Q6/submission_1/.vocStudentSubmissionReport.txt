@@ -1,0 +1,7 @@
+
+[Executed at: Wed Mar 14 1:44:12 PDT 2018]
+
+{'Somerset': [], 'Redhill': [], 'Bukit Gombak': [], 'Kallang': [], 'Marsiling': [], 'Dover': [], 'Canberra': [], 'Yishun': [], 'Newton': [], 'Admiralty': [], 'Aljuned': [], 'Tuas West Road': [], 'Tuas Link': [], 'Bukit Batok': [], 'Tampines': [], 'Pasir Ris': [], 'Braddell': [], 'Joo Koon': [], 'Tanah Merah': [], 'Bishan': [], 'Chinese Garden': [], 'Lavender': [], 'Expo': [], 'Outram Park': [], 'Novena': [], 'Kranji': [], 'Pioneer': [], 'Kembangan': [], 'Ang Mo Kio': [], 'Woodlands': [], 'Commonwealth': [], 'Simei': [], 'Eunos': [], 'Boon Lay': [], 'Yio Chu Kang': [], 'Marina Bay': [], 'Khatib': [], 'Bugis': [], 'Jurong East': [], 'Changi Airport': [], 'Paya Lebar': [], 'Clementi': [], 'Sembawang': [], 'Choa Chu Kang': [], 'Tiong Bahru': [], 'Dhoby Ghaut': [], 'Tanjong Pagar': [], 'Tuas Crescent': [], 'Yew Tee': [], 'Marina South Pier': [], 'Orchard': [], 'Lakeside': [], 'Bedok': [], 'City Hall': [], 'Toa Payoh': [], 'Buona Vista': [], 'Gul Circle': [], 'Queenstown': [], 'Raffles Place': []}
+{'Jurong East': ['EastWestLine (EW)', 'NorthSouthLine'], 'City Hall': ['EastWestLine (EW)', 'NorthSouthLine'], 'Tanah Merah': ['EastWestLine (EW)', 'EastWestLine (CG)'], 'Raffles Place': ['EastWestLine (EW)', 'NorthSouthLine']}
+Correct file submitted; running sanity test...
+Warning: Your find_path does not seem to call the other three functions.

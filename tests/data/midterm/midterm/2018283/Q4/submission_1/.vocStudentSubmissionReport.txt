@@ -1,0 +1,56 @@
+
+[Executed at: Wed Mar 14 1:56:37 PDT 2018]
+
+Correct file submitted; running sanity test...
+Test case 1:
+[100]
+Pass:  True
+Test case 2:
+[-5, -4]
+Pass:  True
+Test case 3:
+[2, -3, 1]
+[0, -1]
+1
+Error running test case: 2
+Test case 4:
+[23]
+Error running test case: 3
+Test case 5:
+[10]
+Pass:  True
+Test case 6:
+[5, 4]
+Pass:  True
+Test case 7:
+[-2, 3, -1]
+[0, 1]
+-1
+Error running test case: 6
+Test case 8:
+[-23]
+Error running test case: 7
+Test case 9:
+[10]
+Error running test case: 8
+Test case 10:
+[5, 4, 2, 2]
+Pass:  True
+Test case 11:
+[-2, 3, -1]
+Pass:  False
+Test case 12:
+[-5, -4]
+Pass:  True
+Test case 13:
+[5, 4, 2, 2]
+Pass:  True
+Test case 14:
+[10]
+Pass:  True
+Test case 15:
+[-2, 3, -1]
+[0, 1]
+-1
+Error running test case: 14
+Correct Test Cases: [8/15]

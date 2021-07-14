@@ -1,0 +1,13 @@
+
+[Executed at: Wed Mar 14 1:53:57 PDT 2018]
+
+{'Admiralty': ['NorthSouthLine'], 'Tampines': ['EastWestLine (EW)'], 'Simei': ['EastWestLine (EW)'], 'Bukit Batok': ['NorthSouthLine'], 'Yew Tee': ['NorthSouthLine'], 'Pioneer': ['EastWestLine (EW)'], 'Ang Mo Kio': ['NorthSouthLine'], 'Somerset': ['NorthSouthLine'], 'Joo Koon': ['EastWestLine (EW)'], 'Changi Airport': ['EastWestLine (CG)'], 'Yishun': ['NorthSouthLine'], 'Pasir Ris': ['EastWestLine (EW)'], 'Marina South Pier': ['NorthSouthLine'], 'Chinese Garden': ['EastWestLine (EW)'], 'Orchard': ['NorthSouthLine'], 'Expo': ['EastWestLine (CG)'], 'Raffles Place': ['NorthSouthLine', 'EastWestLine (EW)'], 'Boon Lay': ['EastWestLine (EW)'], 'Kallang': ['EastWestLine (EW)'], 'Khatib': ['NorthSouthLine'], 'Commonwealth': ['EastWestLine (EW)'], 'Novena': ['NorthSouthLine'], 'Choa Chu Kang': ['NorthSouthLine'], 'Eunos': ['EastWestLine (EW)'], 'Dover': ['EastWestLine (EW)'], 'Lakeside': ['EastWestLine (EW)'], 'Tuas Link': ['EastWestLine (EW)'], 'Outram Park': ['EastWestLine (EW)'], 'Paya Lebar': ['EastWestLine (EW)'], 'Tanah Merah': ['EastWestLine (EW)', 'EastWestLine (CG)'], 'Tanjong Pagar': ['EastWestLine (EW)'], 'Jurong East': ['NorthSouthLine', 'EastWestLine (EW)'], 'Kranji': ['NorthSouthLine'], 'Dhoby Ghaut': ['NorthSouthLine'], 'Tiong Bahru': ['EastWestLine (EW)'], 'Bukit Gombak': ['NorthSouthLine'], 'Buona Vista': ['EastWestLine (EW)'], 'Redhill': ['EastWestLine (EW)'], 'Aljuned': ['EastWestLine (EW)'], 'Sembawang': ['NorthSouthLine'], 'Tuas Crescent': ['EastWestLine (EW)'], 'Canberra': ['NorthSouthLine'], 'Clementi': ['EastWestLine (EW)'], 'Bedok': ['EastWestLine (EW)'], 'Yio Chu Kang': ['NorthSouthLine'], 'Newton': ['NorthSouthLine'], 'Gul Circle': ['EastWestLine (EW)'], 'Marsiling': ['NorthSouthLine'], 'Woodlands': ['NorthSouthLine'], 'Kembangan': ['EastWestLine (EW)'], 'Bishan': ['NorthSouthLine'], 'Queenstown': ['EastWestLine (EW)'], 'Braddell': ['NorthSouthLine'], 'City Hall': ['NorthSouthLine', 'EastWestLine (EW)'], 'Tuas West Road': ['EastWestLine (EW)'], 'Marina Bay': ['NorthSouthLine'], 'Lavender': ['EastWestLine (EW)'], 'Toa Payoh': ['NorthSouthLine'], 'Bugis': ['EastWestLine (EW)']}
+Traceback (most recent call last):
+  File "/home/ccc_v1_c79523__48809/asn24778_45/asn24782_4/asnlib/submission.py", line 8, in <module>
+    from q6_work import find_path
+  File "./q6_work.py", line 45, in <module>
+    print(get_interchange(lines))
+  File "./q6_work.py", line 30, in get_interchange
+    oupt[keys] = st[keys]
+NameError: name 'oupt' is not defined
+Command exited with non-zero status 1

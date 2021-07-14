@@ -1,0 +1,13 @@
+
+[Executed at: Sun Mar 18 23:44:03 PDT 2018]
+
+Traceback (most recent call last):
+  File "/home/ccc_v1_c79523__48809/asn24778_45/asn24781_3/asnlib/autograde.py", line 14, in <module>
+    score=runtest.main()
+  File "/home/ccc_v1_c79523__48809/asn24778_45/asn24781_3/asnlib/runtestcases.py", line 77, in main
+    stu_work=getattr(__import__(work_package, fromlist=fun_name), f)
+  File "./q5_work.py", line 9
+    x += -
+         ^
+SyntaxError: invalid syntax
+Command exited with non-zero status 1

@@ -1,0 +1,76 @@
+
+[Executed at: Sun Mar 18 23:27:36 PDT 2018]
+
+{'Tanah Merah': ['EastWestLine (CG)', 'EastWestLine (EW)'], 'Yio Chu Kang': ['NorthSouthLine'], 'Marina Bay': ['NorthSouthLine'], 'City Hall': ['NorthSouthLine', 'EastWestLine (EW)'], 'Woodlands': ['NorthSouthLine'], 'Marsiling': ['NorthSouthLine'], 'Tanjong Pagar': ['EastWestLine (EW)'], 'Admiralty': ['NorthSouthLine'], 'Simei': ['EastWestLine (EW)'], 'Gul Circle': ['EastWestLine (EW)'], 'Boon Lay': ['EastWestLine (EW)'], 'Toa Payoh': ['NorthSouthLine'], 'Lakeside': ['EastWestLine (EW)'], 'Braddell': ['NorthSouthLine'], 'Redhill': ['EastWestLine (EW)'], 'Kranji': ['NorthSouthLine'], 'Tampines': ['EastWestLine (EW)'], 'Dover': ['EastWestLine (EW)'], 'Clementi': ['EastWestLine (EW)'], 'Kallang': ['EastWestLine (EW)'], 'Pioneer': ['EastWestLine (EW)'], 'Bedok': ['EastWestLine (EW)'], 'Expo': ['EastWestLine (CG)'], 'Bukit Batok': ['NorthSouthLine'], 'Paya Lebar': ['EastWestLine (EW)'], 'Aljuned': ['EastWestLine (EW)'], 'Lavender': ['EastWestLine (EW)'], 'Buona Vista': ['EastWestLine (EW)'], 'Joo Koon': ['EastWestLine (EW)'], 'Tiong Bahru': ['EastWestLine (EW)'], 'Raffles Place': ['NorthSouthLine', 'EastWestLine (EW)'], 'Khatib': ['NorthSouthLine'], 'Marina South Pier': ['NorthSouthLine'], 'Canberra': ['NorthSouthLine'], 'Commonwealth': ['EastWestLine (EW)'], 'Queenstown': ['EastWestLine (EW)'], 'Yishun': ['NorthSouthLine'], 'Tuas Crescent': ['EastWestLine (EW)'], 'Chinese Garden': ['EastWestLine (EW)'], 'Novena': ['NorthSouthLine'], 'Dhoby Ghaut': ['NorthSouthLine'], 'Ang Mo Kio': ['NorthSouthLine'], 'Newton': ['NorthSouthLine'], 'Choa Chu Kang': ['NorthSouthLine'], 'Changi Airport': ['EastWestLine (CG)'], 'Bukit Gombak': ['NorthSouthLine'], 'Somerset': ['NorthSouthLine'], 'Jurong East': ['NorthSouthLine', 'EastWestLine (EW)'], 'Tuas Link': ['EastWestLine (EW)'], 'Pasir Ris': ['EastWestLine (EW)'], 'Orchard': ['NorthSouthLine'], 'Bishan': ['NorthSouthLine'], 'Bugis': ['EastWestLine (EW)'], 'Kembangan': ['EastWestLine (EW)'], 'Sembawang': ['NorthSouthLine'], 'Tuas West Road': ['EastWestLine (EW)'], 'Outram Park': ['EastWestLine (EW)'], 'Yew Tee': ['NorthSouthLine'], 'Eunos': ['EastWestLine (EW)']}
+{'Tanah Merah': ['EastWestLine (EW)', 'EastWestLine (CG)'], 'City Hall': ['EastWestLine (EW)', 'NorthSouthLine'], 'Raffles Place': ['EastWestLine (EW)', 'NorthSouthLine'], 'Jurong East': ['EastWestLine (EW)', 'NorthSouthLine']}
+Test case 1: output type
+Pass:  False
+Test case 2: length of keys
+Error running test case: 1
+Test case 3: keys
+Error running test case: 2
+Test case 4: key - value
+Error running test case: 3
+Test case 5: length of keys
+Error running test case: 4
+Test case 6: keys
+Error running test case: 5
+Test case 7: key - value
+Error running test case: 6
+Correct Test Cases: [0/7]
+Test case 1: output type
+Pass:  True
+Test case 2: length of keys
+Pass:  True
+Test case 3: keys
+Pass:  True
+Test case 4: key - value
+Pass:  True
+Test case 5: length of keys
+Pass:  True
+Test case 6: keys
+Pass:  True
+Test case 7: key - value
+Pass:  True
+Correct Test Cases: [7/7]
+Test case 1: output type
+Pass:  True
+Test case 2: length of keys
+Pass:  True
+Test case 3: keys
+Pass:  True
+Test case 4: key - value
+Pass:  False
+Test case 5: length of keys
+Pass:  True
+Test case 6: keys
+Pass:  True
+Test case 7: key - value
+Pass:  False
+Correct Test Cases: [5/7]
+Test case 1: output type
+Pass:  False
+Test case 2: length of list
+Error running test case: 1
+Test case 3: values one interchange
+Pass:  False
+Test case 4: values no interchange
+Pass:  False
+Test case 5: values two interchanges
+Pass:  True
+Test case 6: two possible path
+Pass:  False
+Test case 7: test function call
+Pass:  False
+Test case 8: test function call
+Pass:  False
+Test case 9: test function call
+Pass:  False
+Correct Test Cases: [1/9]
+================================
+SUMMARY of CORRECT TEST CASES
+================================
+Part: A, Correct Test Cases: 0/7.
+Part: B, Correct Test Cases: 7/7.
+Part: C, Correct Test Cases: 5/7.
+Part: D, Correct Test Cases: 1/9.

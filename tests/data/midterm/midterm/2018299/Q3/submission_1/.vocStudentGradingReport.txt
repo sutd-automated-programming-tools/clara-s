@@ -1,0 +1,6 @@
+
+[Executed at: Mon Mar 19 0:03:57 PDT 2018]
+
+Warning: The process runtime may have reached the allocated threshold of 1800 second(s).
+Test case 1: area_square
+Enter a side of the square: timeout: the monitored command dumped core

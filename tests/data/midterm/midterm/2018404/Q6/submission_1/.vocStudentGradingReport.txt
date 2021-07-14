@@ -1,0 +1,229 @@
+
+[Executed at: Sun Mar 18 23:25:30 PDT 2018]
+
+Tanah Merah
+Jurong East
+Pasir Ris
+Tanah Merah
+Jurong East
+Pasir Ris
+Tanah Merah
+Jurong East
+Pasir Ris
+{'EastWestLine (EW)': ['Tanah Merah', 'Jurong East', 'Pasir Ris'], 'NorthSouthLine': ['Tanah Merah', 'Jurong East', 'Pasir Ris'], 'EastWestLine (CG)': ['Tanah Merah', 'Jurong East', 'Pasir Ris']}
+None
+Test case 1: output type
+Pass:  True
+Test case 2: length of keys
+Pass:  False
+Test case 3: keys
+Pass:  False
+Test case 4: key - value
+Pass:  False
+Test case 5: length of keys
+Pass:  False
+Test case 6: keys
+Pass:  False
+Test case 7: key - value
+Pass:  False
+Correct Test Cases: [1/7]
+Test case 1: output type
+Tanah Merah
+Jurong East
+Pasir Ris
+Tanah Merah
+Jurong East
+Pasir Ris
+Tanah Merah
+Jurong East
+Pasir Ris
+Pass:  True
+Test case 2: length of keys
+Tanah Merah
+Jurong East
+Pasir Ris
+Tanah Merah
+Jurong East
+Pasir Ris
+Tanah Merah
+Jurong East
+Pasir Ris
+Pass:  False
+Test case 3: keys
+Tanah Merah
+Jurong East
+Pasir Ris
+Tanah Merah
+Jurong East
+Pasir Ris
+Tanah Merah
+Jurong East
+Pasir Ris
+Pass:  False
+Test case 4: key - value
+Tanah Merah
+Jurong East
+Pasir Ris
+Tanah Merah
+Jurong East
+Pasir Ris
+Tanah Merah
+Jurong East
+Pasir Ris
+Pass:  False
+Test case 5: length of keys
+HarbourFront
+Jurong East
+Tanah Merah
+Bukit Panjang
+Dhoby Ghaut
+Pasir Ris
+HarbourFront
+Jurong East
+Tanah Merah
+Bukit Panjang
+Dhoby Ghaut
+Pasir Ris
+HarbourFront
+Jurong East
+Tanah Merah
+Bukit Panjang
+Dhoby Ghaut
+Pasir Ris
+HarbourFront
+Jurong East
+Tanah Merah
+Bukit Panjang
+Dhoby Ghaut
+Pasir Ris
+HarbourFront
+Jurong East
+Tanah Merah
+Bukit Panjang
+Dhoby Ghaut
+Pasir Ris
+HarbourFront
+Jurong East
+Tanah Merah
+Bukit Panjang
+Dhoby Ghaut
+Pasir Ris
+Pass:  False
+Test case 6: keys
+HarbourFront
+Jurong East
+Tanah Merah
+Bukit Panjang
+Dhoby Ghaut
+Pasir Ris
+HarbourFront
+Jurong East
+Tanah Merah
+Bukit Panjang
+Dhoby Ghaut
+Pasir Ris
+HarbourFront
+Jurong East
+Tanah Merah
+Bukit Panjang
+Dhoby Ghaut
+Pasir Ris
+HarbourFront
+Jurong East
+Tanah Merah
+Bukit Panjang
+Dhoby Ghaut
+Pasir Ris
+HarbourFront
+Jurong East
+Tanah Merah
+Bukit Panjang
+Dhoby Ghaut
+Pasir Ris
+HarbourFront
+Jurong East
+Tanah Merah
+Bukit Panjang
+Dhoby Ghaut
+Pasir Ris
+Pass:  False
+Test case 7: key - value
+HarbourFront
+Jurong East
+Tanah Merah
+Bukit Panjang
+Dhoby Ghaut
+Pasir Ris
+HarbourFront
+Jurong East
+Tanah Merah
+Bukit Panjang
+Dhoby Ghaut
+Pasir Ris
+HarbourFront
+Jurong East
+Tanah Merah
+Bukit Panjang
+Dhoby Ghaut
+Pasir Ris
+HarbourFront
+Jurong East
+Tanah Merah
+Bukit Panjang
+Dhoby Ghaut
+Pasir Ris
+HarbourFront
+Jurong East
+Tanah Merah
+Bukit Panjang
+Dhoby Ghaut
+Pasir Ris
+HarbourFront
+Jurong East
+Tanah Merah
+Bukit Panjang
+Dhoby Ghaut
+Pasir Ris
+Pass:  False
+Correct Test Cases: [1/7]
+Test case 1: output type
+Pass:  False
+Test case 2: length of keys
+Error running test case: 1
+Test case 3: keys
+Error running test case: 2
+Test case 4: key - value
+Error running test case: 3
+Test case 5: length of keys
+Error running test case: 4
+Test case 6: keys
+Error running test case: 5
+Test case 7: key - value
+Error running test case: 6
+Correct Test Cases: [0/7]
+Test case 1: output type
+Pass:  False
+Test case 2: length of list
+Error running test case: 1
+Test case 3: values one interchange
+Pass:  False
+Test case 4: values no interchange
+Pass:  False
+Test case 5: values two interchanges
+Pass:  True
+Test case 6: two possible path
+Pass:  False
+Test case 7: test function call
+Pass:  False
+Test case 8: test function call
+Pass:  False
+Test case 9: test function call
+Pass:  False
+Correct Test Cases: [1/9]
+================================
+SUMMARY of CORRECT TEST CASES
+================================
+Part: A, Correct Test Cases: 1/7.
+Part: B, Correct Test Cases: 1/7.
+Part: C, Correct Test Cases: 0/7.
+Part: D, Correct Test Cases: 1/9.

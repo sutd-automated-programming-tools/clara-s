@@ -1,0 +1,34 @@
+
+[Executed at: Sun Mar 18 23:27:14 PDT 2018]
+
+Test case 1: nroot
+Pass:  False
+Test case 2: nroot
+Pass:  False
+Test case 3: nroot
+Pass:  False
+Test case 4: nroot
+Pass:  False
+Test case 5: nroot
+Pass:  True
+Test case 6: nroot
+Pass:  False
+Test case 7: nroot
+Pass:  False
+Test case 8: nroot_complex
+Error running test case: 8
+Test case 9: nroot_complex
+Error running test case: 9
+Test case 10: nroot_complex
+Error running test case: 10
+Test case 11: nroot_complex
+Error running test case: 11
+Test case 12: nroot_complex
+Error running test case: 12
+Test case 13: nroot_complex
+Error running test case: 13
+Test case 14: nroot_complex
+Error running test case: 14
+Test case 15: does 'nroot_complex' call 'nroot'?
+Error running test case: 15
+Score: [1/15]

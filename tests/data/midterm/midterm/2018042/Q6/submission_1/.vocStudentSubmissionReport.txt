@@ -1,0 +1,12 @@
+
+[Executed at: Wed Mar 14 1:46:32 PDT 2018]
+
+Traceback (most recent call last):
+  File "/home/ccc_v1_c79523__48809/asn24778_45/asn24782_4/asnlib/submission.py", line 8, in <module>
+    from q6_work import find_path
+  File "./q6_work.py", line 27, in <module>
+    print(get_stationline(mrt_d))
+  File "./q6_work.py", line 16, in get_stationline
+    stationline[i] += key
+KeyError: 'Tanah Merah'
+Command exited with non-zero status 1

@@ -1,0 +1,6 @@
+
+[Executed at: Sun Mar 18 23:49:21 PDT 2018]
+
+Warning: The process cpu usage may have reached the allocated cpu-time threshold of 600 second(s).
+../resource/scripts/grade.sh: line 1:  5614 Killed                  python3 $ASNLIB/autograde.py $vocareumGradeFile
+Command exited with non-zero status 137

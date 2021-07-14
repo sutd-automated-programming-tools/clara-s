@@ -1,0 +1,76 @@
+
+[Executed at: Sun Mar 18 23:25:22 PDT 2018]
+
+{'t': ['EastWestLine (EW)', 'EastWestLine (EW)', 'NorthSouthLine', 'NorthSouthLine', 'EastWestLine (CG)', 'EastWestLine (CG)'], 'i': ['EastWestLine (EW)', 'NorthSouthLine', 'EastWestLine (CG)'], 'C': ['EastWestLine (CG)'], 'a': ['EastWestLine (EW)', 'EastWestLine (CG)'], '(': ['EastWestLine (EW)', 'EastWestLine (CG)'], 'G': ['EastWestLine (CG)'], 'h': ['NorthSouthLine', 'NorthSouthLine'], ' ': ['EastWestLine (EW)', 'EastWestLine (CG)'], 'n': ['EastWestLine (EW)', 'NorthSouthLine', 'EastWestLine (CG)'], ')': ['EastWestLine (EW)', 'EastWestLine (CG)'], 'N': ['NorthSouthLine'], 'W': ['EastWestLine (EW)', 'EastWestLine (EW)', 'EastWestLine (CG)'], 'E': ['EastWestLine (EW)', 'EastWestLine (EW)', 'EastWestLine (CG)'], 'L': ['EastWestLine (EW)', 'NorthSouthLine', 'EastWestLine (CG)'], 'r': ['NorthSouthLine'], 'e': ['EastWestLine (EW)', 'EastWestLine (EW)', 'NorthSouthLine', 'EastWestLine (CG)', 'EastWestLine (CG)'], 'o': ['NorthSouthLine', 'NorthSouthLine'], 's': ['EastWestLine (EW)', 'EastWestLine (EW)', 'EastWestLine (CG)', 'EastWestLine (CG)'], 'S': ['NorthSouthLine'], 'u': ['NorthSouthLine']}
+{'Raffles Place': ['EastWestLine (EW)', 'NorthSouthLine'], 'Tanah Merah': ['EastWestLine (EW)', 'EastWestLine (CG)'], 'City Hall': ['EastWestLine (EW)', 'NorthSouthLine'], 'Jurong East': ['EastWestLine (EW)', 'NorthSouthLine']}
+Test case 1: output type
+Pass:  True
+Test case 2: length of keys
+Pass:  True
+Test case 3: keys
+Pass:  True
+Test case 4: key - value
+Pass:  False
+Test case 5: length of keys
+Pass:  True
+Test case 6: keys
+Pass:  True
+Test case 7: key - value
+Pass:  False
+Correct Test Cases: [5/7]
+Test case 1: output type
+Pass:  True
+Test case 2: length of keys
+Pass:  False
+Test case 3: keys
+Pass:  False
+Test case 4: key - value
+Pass:  False
+Test case 5: length of keys
+Pass:  False
+Test case 6: keys
+Pass:  False
+Test case 7: key - value
+Pass:  False
+Correct Test Cases: [1/7]
+Test case 1: output type
+Pass:  True
+Test case 2: length of keys
+Pass:  True
+Test case 3: keys
+Pass:  True
+Test case 4: key - value
+Pass:  False
+Test case 5: length of keys
+Pass:  True
+Test case 6: keys
+Pass:  True
+Test case 7: key - value
+Pass:  False
+Correct Test Cases: [5/7]
+Test case 1: output type
+Pass:  False
+Test case 2: length of list
+Error running test case: 1
+Test case 3: values one interchange
+Pass:  False
+Test case 4: values no interchange
+Pass:  False
+Test case 5: values two interchanges
+Pass:  True
+Test case 6: two possible path
+Pass:  False
+Test case 7: test function call
+Pass:  False
+Test case 8: test function call
+Pass:  False
+Test case 9: test function call
+Pass:  False
+Correct Test Cases: [1/9]
+================================
+SUMMARY of CORRECT TEST CASES
+================================
+Part: A, Correct Test Cases: 5/7.
+Part: B, Correct Test Cases: 1/7.
+Part: C, Correct Test Cases: 5/7.
+Part: D, Correct Test Cases: 1/9.

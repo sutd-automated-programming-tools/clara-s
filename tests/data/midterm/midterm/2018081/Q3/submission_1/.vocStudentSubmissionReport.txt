@@ -1,0 +1,4 @@
+
+[Executed at: Wed Mar 14 1:46:45 PDT 2018]
+
+Fatal:  Failed to execute the command [/bin/bash .vocSubmissionShellScript_78446.sh], because the server connection failed. Report this problem to Vocareum technical support.

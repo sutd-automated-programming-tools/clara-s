@@ -1,0 +1,15 @@
+def read_stations(f):
+    dict_of_stations = {}
+    
+    for line in f:
+        list_of_str = line.strip().split()
+        
+        list_of_stations = []
+        
+        for stations in list_of_str:
+            list_of_stations.append()
+        
+        mrt = dict(list_of_stations)
+        dict_of_stations.append(mrt)
+        
+    return dict_of_stations

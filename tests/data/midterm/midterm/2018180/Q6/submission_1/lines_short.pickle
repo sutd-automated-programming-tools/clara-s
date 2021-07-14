@@ -1,0 +1,11 @@
+def get_stationline(mrt):
+    new={}
+    
+    for key, value in mrt:
+        if value not in new:
+            lst=[]
+            new[value]=lst
+            lst.append(key)
+        elif value in new:
+            lst.append(key)
+    return new
