@@ -9,3 +9,9 @@ clara/pylpsolve.c
 MANIFEST
 __pycache__/
 .env
+
+clara.egg-info/
+clara.egg-info/*
+.ipynb_checkpoints/
+build/*
+env/

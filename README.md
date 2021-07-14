@@ -30,9 +30,10 @@ Installation & running
 Development
 ===========
 - Create a new virtual environment (using `virtualenv`)
+  * `python -m venv env`
+- Activate environment: `source env/bin/activate`
 - Install `Cython` (using `pip install Cython` inside the new virtual enviroment)
 - Run `python setup.py develop`
-
 
 Debian note
 ===========
